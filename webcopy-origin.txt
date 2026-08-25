@@ -1,0 +1,344 @@
+Uri: https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css
+File Name: C:\Users\swathi\Downloads\skillfintech.com\npm\bootstrap@5.3.0\dist\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js
+File Name: C:\Users\swathi\Downloads\skillfintech.com\npm\bootstrap@5.3.0\dist\js\bootstrap.bundle.min.js
+Content Type: application/javascript
+
+Uri: https://cdn.tailwindcss.com/3.4.17
+File Name: C:\Users\swathi\Downloads\skillfintech.com\3.4.17
+Content Type: text/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css
+File Name: C:\Users\swathi\Downloads\skillfintech.com\ajax\libs\aos\2.3.4\aos.css
+Content Type: text/css
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js
+File Name: C:\Users\swathi\Downloads\skillfintech.com\ajax\libs\aos\2.3.4\aos.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css
+File Name: C:\Users\swathi\Downloads\skillfintech.com\ajax\libs\font-awesome\6.0.0-beta3\css\all.min.css
+Content Type: text/css
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/webfonts/fa-brands-400.ttf
+File Name: C:\Users\swathi\Downloads\skillfintech.com\ajax\libs\font-awesome\6.0.0-beta3\webfonts\fa-brands-400.ttf
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/webfonts/fa-brands-400.woff2
+File Name: C:\Users\swathi\Downloads\skillfintech.com\ajax\libs\font-awesome\6.0.0-beta3\webfonts\fa-brands-400.woff2
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/webfonts/fa-regular-400.ttf
+File Name: C:\Users\swathi\Downloads\skillfintech.com\ajax\libs\font-awesome\6.0.0-beta3\webfonts\fa-regular-400.ttf
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/webfonts/fa-regular-400.woff2
+File Name: C:\Users\swathi\Downloads\skillfintech.com\ajax\libs\font-awesome\6.0.0-beta3\webfonts\fa-regular-400.woff2
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/webfonts/fa-solid-900.ttf
+File Name: C:\Users\swathi\Downloads\skillfintech.com\ajax\libs\font-awesome\6.0.0-beta3\webfonts\fa-solid-900.ttf
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/webfonts/fa-solid-900.woff2
+File Name: C:\Users\swathi\Downloads\skillfintech.com\ajax\libs\font-awesome\6.0.0-beta3\webfonts\fa-solid-900.woff2
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/webfonts/fa-v4compatibility.ttf
+File Name: C:\Users\swathi\Downloads\skillfintech.com\ajax\libs\font-awesome\6.0.0-beta3\webfonts\fa-v4compatibility.ttf
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/webfonts/fa-v4compatibility.woff2
+File Name: C:\Users\swathi\Downloads\skillfintech.com\ajax\libs\font-awesome\6.0.0-beta3\webfonts\fa-v4compatibility.woff2
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css
+File Name: C:\Users\swathi\Downloads\skillfintech.com\ajax\libs\font-awesome\6.5.1\css\all.min.css
+Content Type: text/css
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/webfonts/fa-brands-400.ttf
+File Name: C:\Users\swathi\Downloads\skillfintech.com\ajax\libs\font-awesome\6.5.1\webfonts\fa-brands-400.ttf
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/webfonts/fa-brands-400.woff2
+File Name: C:\Users\swathi\Downloads\skillfintech.com\ajax\libs\font-awesome\6.5.1\webfonts\fa-brands-400.woff2
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/webfonts/fa-regular-400.ttf
+File Name: C:\Users\swathi\Downloads\skillfintech.com\ajax\libs\font-awesome\6.5.1\webfonts\fa-regular-400.ttf
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/webfonts/fa-regular-400.woff2
+File Name: C:\Users\swathi\Downloads\skillfintech.com\ajax\libs\font-awesome\6.5.1\webfonts\fa-regular-400.woff2
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/webfonts/fa-solid-900.ttf
+File Name: C:\Users\swathi\Downloads\skillfintech.com\ajax\libs\font-awesome\6.5.1\webfonts\fa-solid-900.ttf
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/webfonts/fa-solid-900.woff2
+File Name: C:\Users\swathi\Downloads\skillfintech.com\ajax\libs\font-awesome\6.5.1\webfonts\fa-solid-900.woff2
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/webfonts/fa-v4compatibility.ttf
+File Name: C:\Users\swathi\Downloads\skillfintech.com\ajax\libs\font-awesome\6.5.1\webfonts\fa-v4compatibility.ttf
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/webfonts/fa-v4compatibility.woff2
+File Name: C:\Users\swathi\Downloads\skillfintech.com\ajax\libs\font-awesome\6.5.1\webfonts\fa-v4compatibility.woff2
+Content Type: application/octet-stream
+
+Uri: https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap
+File Name: C:\Users\swathi\Downloads\skillfintech.com\css2
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuDyYMZg.ttf
+File Name: C:\Users\swathi\Downloads\skillfintech.com\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuDyYMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZg.ttf
+File Name: C:\Users\swathi\Downloads\skillfintech.com\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf
+File Name: C:\Users\swathi\Downloads\skillfintech.com\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg.ttf
+File Name: C:\Users\swathi\Downloads\skillfintech.com\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf
+File Name: C:\Users\swathi\Downloads\skillfintech.com\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf
+Content Type: font/ttf
+
+Uri: https://skillfintech.com/
+File Name: C:\Users\swathi\Downloads\skillfintech.com\index.htm
+Content Type: text/html
+
+Uri: https://skillfintech.com/about/about-us.html
+File Name: C:\Users\swathi\Downloads\skillfintech.com\about\about-us.html
+Content Type: text/html
+
+Uri: https://skillfintech.com/about/alumni-network.html
+File Name: C:\Users\swathi\Downloads\skillfintech.com\about\alumni-network.html
+Content Type: text/html
+
+Uri: https://skillfintech.com/about/blog.html
+File Name: C:\Users\swathi\Downloads\skillfintech.com\about\blog.html
+Content Type: text/html
+
+Uri: https://skillfintech.com/about/certifications.html
+File Name: C:\Users\swathi\Downloads\skillfintech.com\about\certifications.html
+Content Type: text/html
+
+Uri: https://skillfintech.com/about/contact-us.html
+File Name: C:\Users\swathi\Downloads\skillfintech.com\about\contact-us.html
+Content Type: text/html
+
+Uri: https://skillfintech.com/about/our-branches.html
+File Name: C:\Users\swathi\Downloads\skillfintech.com\about\our-branches.html
+Content Type: text/html
+
+Uri: https://skillfintech.com/about/why-choose-us.html
+File Name: C:\Users\swathi\Downloads\skillfintech.com\about\why-choose-us.html
+Content Type: text/html
+
+Uri: https://skillfintech.com/all-courses.html
+File Name: C:\Users\swathi\Downloads\skillfintech.com\all-courses.html
+Content Type: text/html
+
+Uri: https://skillfintech.com/alumni-network.html
+File Name: C:\Users\swathi\Downloads\skillfintech.com\alumni-network.html
+Content Type: text/html
+
+Uri: https://skillfintech.com/assets/css/style.css
+File Name: C:\Users\swathi\Downloads\skillfintech.com\assets\css\style.css
+Content Type: text/css
+
+Uri: https://skillfintech.com/assets/images/courses/AWS-Cloud.webp
+File Name: C:\Users\swathi\Downloads\skillfintech.com\assets\images\courses\AWS-Cloud.webp
+Content Type: image/webp
+
+Uri: https://skillfintech.com/assets/images/courses/Data-Structures-Algorithms.png
+File Name: C:\Users\swathi\Downloads\skillfintech.com\assets\images\courses\Data-Structures-Algorithms.png
+Content Type: image/png
+
+Uri: https://skillfintech.com/assets/images/courses/DevSecOps.webp
+File Name: C:\Users\swathi\Downloads\skillfintech.com\assets\images\courses\DevSecOps.webp
+Content Type: image/webp
+
+Uri: https://skillfintech.com/assets/images/courses/Docker-Kubernetes.webp
+File Name: C:\Users\swathi\Downloads\skillfintech.com\assets\images\courses\Docker-Kubernetes.webp
+Content Type: image/webp
+
+Uri: https://skillfintech.com/assets/images/courses/Java-fullstack-development.png
+File Name: C:\Users\swathi\Downloads\skillfintech.com\assets\images\courses\Java-fullstack-development.png
+Content Type: image/png
+
+Uri: https://skillfintech.com/assets/images/courses/Jenkins.png
+File Name: C:\Users\swathi\Downloads\skillfintech.com\assets\images\courses\Jenkins.png
+Content Type: image/png
+
+Uri: https://skillfintech.com/assets/images/courses/Mern-Stack-Image.jpg
+File Name: C:\Users\swathi\Downloads\skillfintech.com\assets\images\courses\Mern-Stack-Image.jpg
+Content Type: image/jpeg
+
+Uri: https://skillfintech.com/assets/images/courses/Node-JS-Developer.webp
+File Name: C:\Users\swathi\Downloads\skillfintech.com\assets\images\courses\Node-JS-Developer.webp
+Content Type: image/webp
+
+Uri: https://skillfintech.com/assets/images/courses/PHP-MySQL.png
+File Name: C:\Users\swathi\Downloads\skillfintech.com\assets\images\courses\PHP-MySQL.png
+Content Type: image/png
+
+Uri: https://skillfintech.com/assets/images/courses/Platform-Engineering.png
+File Name: C:\Users\swathi\Downloads\skillfintech.com\assets\images\courses\Platform-Engineering.png
+Content Type: image/png
+
+Uri: https://skillfintech.com/assets/images/courses/React-JS-Developer.png
+File Name: C:\Users\swathi\Downloads\skillfintech.com\assets\images\courses\React-JS-Developer.png
+Content Type: image/png
+
+Uri: https://skillfintech.com/assets/images/courses/Spring-Boot-Developer.webp
+File Name: C:\Users\swathi\Downloads\skillfintech.com\assets\images\courses\Spring-Boot-Developer.webp
+Content Type: image/webp
+
+Uri: https://skillfintech.com/assets/images/courses/UI-Frontend-Development.webp
+File Name: C:\Users\swathi\Downloads\skillfintech.com\assets\images\courses\UI-Frontend-Development.webp
+Content Type: image/webp
+
+Uri: https://skillfintech.com/assets/images/courses/Web-Development.jpg
+File Name: C:\Users\swathi\Downloads\skillfintech.com\assets\images\courses\Web-Development.jpg
+Content Type: image/jpeg
+
+Uri: https://skillfintech.com/assets/images/gov-logos/dept of internal trade.avif
+File Name: C:\Users\swathi\Downloads\skillfintech.com\assets\images\gov-logos\dept of internal trade.avif
+Content Type: 
+
+Uri: https://skillfintech.com/assets/images/gov-logos/iso 2.webp
+File Name: C:\Users\swathi\Downloads\skillfintech.com\assets\images\gov-logos\iso 2.webp
+Content Type: image/webp
+
+Uri: https://skillfintech.com/assets/images/gov-logos/MSME_Logo.webp
+File Name: C:\Users\swathi\Downloads\skillfintech.com\assets\images\gov-logos\MSME_Logo.webp
+Content Type: image/webp
+
+Uri: https://skillfintech.com/assets/images/gov-logos/skill india.webp
+File Name: C:\Users\swathi\Downloads\skillfintech.com\assets\images\gov-logos\skill india.webp
+Content Type: image/webp
+
+Uri: https://skillfintech.com/assets/images/gov-logos/startup-india-logo.webp
+File Name: C:\Users\swathi\Downloads\skillfintech.com\assets\images\gov-logos\startup-india-logo.webp
+Content Type: image/webp
+
+Uri: https://skillfintech.com/assets/images/Hero/1.png
+File Name: C:\Users\swathi\Downloads\skillfintech.com\assets\images\Hero\1.png
+Content Type: image/png
+
+Uri: https://skillfintech.com/assets/images/hired/companylogos1.webp
+File Name: C:\Users\swathi\Downloads\skillfintech.com\assets\images\hired\companylogos1.webp
+Content Type: image/webp
+
+Uri: https://skillfintech.com/assets/images/hired/companylogos2.webp
+File Name: C:\Users\swathi\Downloads\skillfintech.com\assets\images\hired\companylogos2.webp
+Content Type: image/webp
+
+Uri: https://skillfintech.com/assets/images/hired/companylogos3.webp
+File Name: C:\Users\swathi\Downloads\skillfintech.com\assets\images\hired\companylogos3.webp
+Content Type: image/webp
+
+Uri: https://skillfintech.com/assets/images/hired/companylogos4.webp
+File Name: C:\Users\swathi\Downloads\skillfintech.com\assets\images\hired\companylogos4.webp
+Content Type: image/webp
+
+Uri: https://skillfintech.com/assets/images/hired/companylogos5.webp
+File Name: C:\Users\swathi\Downloads\skillfintech.com\assets\images\hired\companylogos5.webp
+Content Type: image/webp
+
+Uri: https://skillfintech.com/assets/images/logo/logo.png
+File Name: C:\Users\swathi\Downloads\skillfintech.com\assets\images\logo\logo.png
+Content Type: image/png
+
+Uri: https://skillfintech.com/assets/js/custome.js
+File Name: C:\Users\swathi\Downloads\skillfintech.com\assets\js\custome.js
+Content Type: application/javascript
+
+Uri: https://skillfintech.com/courses/data-structures-and-algorithms.html
+File Name: C:\Users\swathi\Downloads\skillfintech.com\courses\data-structures-and-algorithms.html
+Content Type: text/html
+
+Uri: https://skillfintech.com/courses/devsecops-course.html
+File Name: C:\Users\swathi\Downloads\skillfintech.com\courses\devsecops-course.html
+Content Type: text/html
+
+Uri: https://skillfintech.com/courses/java-full-stack-developer-course.html
+File Name: C:\Users\swathi\Downloads\skillfintech.com\courses\java-full-stack-developer-course.html
+Content Type: text/html
+
+Uri: https://skillfintech.com/courses/mern-stack-developer-course.html
+File Name: C:\Users\swathi\Downloads\skillfintech.com\courses\mern-stack-developer-course.html
+Content Type: text/html
+
+Uri: https://skillfintech.com/courses/node-js-developer-course.html
+File Name: C:\Users\swathi\Downloads\skillfintech.com\courses\node-js-developer-course.html
+Content Type: text/html
+
+Uri: https://skillfintech.com/courses/react-js-developer-course.html
+File Name: C:\Users\swathi\Downloads\skillfintech.com\courses\react-js-developer-course.html
+Content Type: text/html
+
+Uri: https://skillfintech.com/courses/ui-frontend-development.html
+File Name: C:\Users\swathi\Downloads\skillfintech.com\courses\ui-frontend-development.html
+Content Type: text/html
+
+Uri: https://skillfintech.com/courses/web-development-course.html
+File Name: C:\Users\swathi\Downloads\skillfintech.com\courses\web-development-course.html
+Content Type: text/html
+
+Uri: https://skillfintech.com/index.html
+File Name: C:\Users\swathi\Downloads\skillfintech.com\index.html
+Content Type: text/html
+
+Uri: https://skillfintech.com/placements/hiring-partners.html
+File Name: C:\Users\swathi\Downloads\skillfintech.com\placements\hiring-partners.html
+Content Type: text/html
+
+Uri: https://skillfintech.com/placements/placed-students.html
+File Name: C:\Users\swathi\Downloads\skillfintech.com\placements\placed-students.html
+Content Type: text/html
+
+Uri: https://skillfintech.com/placements/placement-statistics.html
+File Name: C:\Users\swathi\Downloads\skillfintech.com\placements\placement-statistics.html
+Content Type: text/html
+
+Uri: https://skillfintech.com/placements/success-stories.html
+File Name: C:\Users\swathi\Downloads\skillfintech.com\placements\success-stories.html
+Content Type: text/html
+
+Uri: https://skillfintech.com/training/classroom-training.html
+File Name: C:\Users\swathi\Downloads\skillfintech.com\training\classroom-training.html
+Content Type: text/html
+
+Uri: https://skillfintech.com/training/corporate-training.html
+File Name: C:\Users\swathi\Downloads\skillfintech.com\training\corporate-training.html
+Content Type: text/html
+
+Uri: https://skillfintech.com/training/online-live-training.html
+File Name: C:\Users\swathi\Downloads\skillfintech.com\training\online-live-training.html
+Content Type: text/html
+
+Uri: https://skillfintech.com/training/upcoming-batches.html
+File Name: C:\Users\swathi\Downloads\skillfintech.com\training\upcoming-batches.html
+Content Type: text/html
+
+Uri: https://skillfintech.com/training/video-based-learning.html
+File Name: C:\Users\swathi\Downloads\skillfintech.com\training\video-based-learning.html
+Content Type: text/html
+
+Uri: https://skillfintech.com/training/weekend-batches.html
+File Name: C:\Users\swathi\Downloads\skillfintech.com\training\weekend-batches.html
+Content Type: text/html
+
