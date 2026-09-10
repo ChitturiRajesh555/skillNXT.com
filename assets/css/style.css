@@ -923,127 +923,215 @@ a.text-dark.text-decoration-none.hover-warning {
      }
  }
 
- /* Footer */
- footer {
-     background: #0f172a;
-     position: relative;
-     overflow: hidden;
-     padding: 2.5rem 1rem;
- }
+ /* =========================================
+   SKILLNXT FOOTER
+========================================= */
 
- .section-title {
-     font-size: clamp(1.6rem, 5vw, 2.5rem);
-     font-weight: 700;
-     text-align: center;
-     margin-bottom: 0.5rem;
- }
+.skillnxt-footer {
+    position: relative;
+    background:
+        linear-gradient(
+            rgba(7, 39, 82, 0.93),
+            rgba(7, 39, 82, 0.96)
+        ),
+        url("../images/footer-bg.jpg");
 
- .title-underline {
-     width: 50px;
-     height: 3px;
-     background: #e8a838;
-     margin: 0.5rem auto 1.5rem;
-     border-radius: 3px;
- }
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 65px 0 20px;
+}
 
- html {
-     scroll-behavior: smooth;
- }
 
- ::-webkit-scrollbar {
-     width: 5px;
- }
+/* DARK BLUE OVERLAY */
 
- ::-webkit-scrollbar-track {
-     background: #f1f1f1;
- }
+.skillnxt-footer-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(5, 31, 66, 0.25);
+}
 
- ::-webkit-scrollbar-thumb {
-     background: linear-gradient(135deg, #11337e, #1e40af);
-     border-radius: 3px;
- }
 
- button {
-     position: relative;
-     overflow: hidden;
- }
+/* CONTENT */
 
- .ripple {
-     position: absolute;
-     border-radius: 50%;
-     background: rgba(255, 255, 255, 0.4);
-     transform: scale(0);
-     animation: rippleAnim 0.6s ease-out;
-     pointer-events: none;
- }
+.skillnxt-footer-content {
+    position: relative;
+    z-index: 2;
+}
 
- @keyframes rippleAnim {
-     to {
-         transform: scale(4);
-         opacity: 0;
-     }
- }
 
- .footer-links a {
-     transition: color 0.2s;
- }
+/* LOGO */
 
- .footer-links a:hover {
-     color: #e8a838;
- }
+.skillnxt-footer-logo {
+    height: 55px;
+    max-width: 180px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
 
- .footer-social a {
-     display: inline-flex;
-     align-items: center;
-     justify-content: center;
-     width: 35px;
-     height: 35px;
-     background: #1e293b;
-     border-radius: 50%;
-     transition: all 0.3s;
- }
 
- .footer-social a:hover {
-     background: #e8a838;
-     color: #0f172a;
-     transform: translateY(-3px);
- }
+/* ABOUT TEXT */
 
- /* Dropdown Menu */
- .dropdown-menu {
-     min-width: 220px;
-     padding: 0.5rem 0;
-     margin-top: 0 !important;
-     border: none;
-     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
- }
+.skillnxt-footer-about {
+    color: rgba(255,255,255,0.85);
+    font-size: 13px;
+    line-height: 1.9;
+    margin: 0;
+}
 
- .dropdown-item {
-     padding: 0.6rem 1.2rem;
-     transition: all 0.2s;
- }
 
- .dropdown-item:hover {
-     background-color: #f8f9fa;
-     color: #e8a838;
-     padding-left: 1.5rem;
- }
+/* HEADINGS */
 
- .dropdown-header {
-     font-size: 0.75rem;
-     text-transform: uppercase;
-     letter-spacing: 0.5px;
-     padding: 0.8rem 1.2rem 0.4rem;
- }
+.skillnxt-footer h5 {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
 
- .dropdown-toggle::after {
-     margin-left: 0.5rem;
-     vertical-align: middle;
- }
 
- .dropdown:hover .dropdown-menu {
-     display: block;
- }
+/* SUB HEADING */
+
+.footer-sub-heading {
+    margin-top: 18px;
+}
+
+
+/* LISTS */
+
+.skillnxt-footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.skillnxt-footer ul li {
+    margin-bottom: 8px;
+}
+
+
+.skillnxt-footer ul li a {
+    color: rgba(255,255,255,0.82);
+    font-size: 12px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+.skillnxt-footer ul li a:hover {
+    color: #e8a838;
+    padding-left: 4px;
+}
+
+
+/* CONTACT */
+
+.footer-contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 15px;
+    color: rgba(255,255,255,0.88);
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+
+.footer-contact-item i {
+    color: #ffffff;
+    font-size: 14px;
+    width: 18px;
+    margin-top: 3px;
+}
+
+
+.footer-contact-item a {
+    color: rgba(255,255,255,0.88);
+    text-decoration: none;
+}
+
+
+.footer-contact-item a:hover {
+    color: #e8a838;
+}
+
+
+/* FOLLOW */
+
+.footer-follow-title {
+    margin-top: 18px;
+    margin-bottom: 12px !important;
+}
+
+
+/* SOCIAL ICONS */
+
+.skillnxt-footer-social {
+    display: flex;
+    gap: 15px;
+}
+
+
+.skillnxt-footer-social a {
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+.skillnxt-footer-social a:hover {
+    color: #e8a838;
+    transform: translateY(-2px);
+}
+
+
+/* FOOTER BOTTOM */
+
+.skillnxt-footer-bottom {
+    margin-top: 35px;
+    padding-top: 18px;
+    border-top: 1px solid rgba(255,255,255,0.25);
+    text-align: center;
+}
+
+
+.skillnxt-footer-bottom p {
+    color: rgba(255,255,255,0.8);
+    font-size: 11px;
+    margin: 0;
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 991px) {
+
+    .skillnxt-footer {
+        padding-top: 50px;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+
+    .skillnxt-footer {
+        text-align: left;
+    }
+
+    .skillnxt-footer h5 {
+        margin-top: 15px;
+    }
+
+    .skillnxt-footer-bottom {
+        margin-top: 25px;
+    }
+
+}
 
  /* Methodology Row */
  .methodology-row {
@@ -1078,6 +1166,689 @@ a.text-dark.text-decoration-none.hover-warning {
      }
  }
 
+ /* =========================================
+   WHY CHOOSE US SECTION
+========================================= */
+
+.why-choose-section {
+    padding: 80px 0 55px;
+    background: #ffffff;
+}
+
+.why-badge {
+    display: inline-block;
+    background: #0b4db8;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 7px 18px;
+    border-radius: 30px;
+    margin-bottom: 18px;
+}
+
+.why-title {
+    color: #0646ad;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 1.25;
+    margin-bottom: 22px;
+}
+
+.why-choose-section p {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.9;
+    margin-bottom: 14px;
+}
+
+
+/* IMAGE AREA */
+
+.why-image-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 390px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.why-main-image {
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+    border-radius: 5px;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+
+/* BLUE DECORATION */
+
+.why-image-wrapper::before {
+    content: "";
+    position: absolute;
+    width: 135px;
+    height: 100px;
+    background: #0646ad;
+    bottom: 0;
+    left: 0;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+
+/* GREEN OUTLINE */
+
+.why-image-wrapper::after {
+    content: "";
+    position: absolute;
+    width: 105px;
+    height: 105px;
+    right: 0;
+    top: 0;
+    border: 2px solid #8ee9a3;
+    border-radius: 18px;
+    z-index: 1;
+}
+
+
+/* CERTIFIED BOX */
+
+.certified-box {
+    position: absolute;
+    left: -5px;
+    top: 10px;
+    z-index: 4;
+    background: #ffffff;
+    padding: 10px 16px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.15);
+}
+
+.certified-icon {
+    width: 38px;
+    height: 38px;
+    border-radius: 8px;
+    background: #0646ad;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.certified-box small,
+.students-box small {
+    display: block;
+    color: #555;
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+.certified-box strong,
+.students-box strong {
+    display: block;
+    color: #17233c;
+    font-size: 13px;
+}
+
+
+/* STUDENT BOX */
+
+.students-box {
+    position: absolute;
+    right: -5px;
+    bottom: 10px;
+    z-index: 4;
+    background: #0646ad;
+    color: #ffffff;
+    padding: 12px 18px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.15);
+}
+
+.students-box small,
+.students-box strong {
+    color: #ffffff;
+}
+
+.students-icon {
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.16);
+}
+
+
+/* BOTTOM FEATURES */
+
+.why-bottom-row {
+    margin-top: 45px;
+}
+
+.why-feature-card {
+    min-height: 75px;
+    padding: 14px 20px;
+    border-radius: 12px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: 600;
+    color: #222;
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.12);
+}
+
+.feature-icon {
+    width: 42px;
+    height: 42px;
+    min-width: 42px;
+    border-radius: 8px;
+    background: #0646ad;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 991px) {
+
+    .why-choose-section {
+        padding: 60px 0;
+    }
+
+    .why-title {
+        font-size: 30px;
+    }
+
+    .why-image-wrapper {
+        margin-top: 25px;
+    }
+}
+
+
+@media (max-width: 576px) {
+
+    .why-title {
+        font-size: 25px;
+    }
+
+    .why-title br {
+        display: none;
+    }
+
+    .why-main-image {
+        height: 350px;
+    }
+
+    .why-image-wrapper {
+        padding: 15px;
+    }
+
+    .certified-box {
+        left: 0;
+        padding: 8px 12px;
+    }
+
+    .students-box {
+        right: 0;
+        padding: 9px 12px;
+    }
+
+    .why-bottom-row {
+        margin-top: 30px;
+    }
+}
+
+/* =====================================
+   STORY VISION MISSION SECTION
+===================================== */
+
+.story-section {
+    padding: 80px 0;
+    background: #eef1f5;
+}
+
+
+/* COMMON CARD STYLE */
+
+.story-card,
+.vision-mission-card {
+    background: #ffffff;
+    border: 1px solid #d9e0e8;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+}
+
+
+/* OUR STORY */
+
+.story-card {
+    max-width: 780px;
+    margin: auto;
+    padding: 25px 30px;
+    text-align: center;
+}
+
+
+.story-icon {
+    font-size: 32px;
+    color: #123f7a;
+    margin-bottom: 8px;
+}
+
+
+.story-card h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #123f7a;
+    margin-bottom: 12px;
+}
+
+
+.story-card p {
+    font-size: 13px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+
+/* VISION AND MISSION */
+
+.vision-mission-card {
+    padding: 22px 28px;
+    text-align: center;
+    min-height: 165px;
+}
+
+
+.vision-icon,
+.mission-icon {
+    font-size: 38px;
+    margin-bottom: 8px;
+}
+
+
+.vision-icon {
+    color: #123f7a;
+}
+
+
+.mission-icon {
+    color: #123f7a;
+}
+
+
+.vision-mission-card h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #123f7a;
+    margin-bottom: 12px;
+}
+
+
+.vision-mission-card p {
+    font-size: 13px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 0;
+}
+
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    .story-section {
+        padding: 50px 15px;
+    }
+
+    .story-card {
+        padding: 25px 20px;
+    }
+
+    .vision-mission-card {
+        margin-bottom: 15px;
+    }
+
+}
+
+/* ==========================================
+   WHY CHOOSE SKILLNXT SECTION
+========================================== */
+
+.why-skillnxt-section {
+    padding: 70px 0;
+    background: #f5f6f8;
+}
+
+
+/* HEADING */
+
+.why-skillnxt-heading {
+    margin-bottom: 30px;
+}
+
+.why-skillnxt-heading h2 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #11337e;
+    margin-bottom: 5px;
+}
+
+.why-skillnxt-heading h2 span {
+    color: #e8a838;
+}
+
+.why-skillnxt-heading p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #11337e;
+    margin-bottom: 0;
+}
+
+
+/* FEATURE CARD */
+
+.skillnxt-feature-card {
+    height: 100%;
+    min-height: 105px;
+    background: #ffffff;
+    border: 1px solid #e2e5eb;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: 0.3s ease;
+}
+
+
+/* HOVER */
+
+.skillnxt-feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(17, 51, 126, 0.18);
+}
+
+
+/* ICON */
+
+.skillnxt-feature-icon {
+    min-width: 45px;
+    width: 45px;
+    font-size: 32px;
+    color: #11337e;
+    text-align: center;
+}
+
+
+/* CONTENT */
+
+.skillnxt-feature-card h4 {
+    font-size: 15px;
+    line-height: 1.35;
+    font-weight: 700;
+    color: #11337e;
+    margin-bottom: 5px;
+}
+
+.skillnxt-feature-card p {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #555;
+    margin: 0;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 991px) {
+
+    .why-skillnxt-section {
+        padding: 60px 0;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+
+    .why-skillnxt-section {
+        padding: 50px 15px;
+    }
+
+    .why-skillnxt-heading h2 {
+        font-size: 24px;
+    }
+
+    .skillnxt-feature-card {
+        min-height: auto;
+    }
+
+}
+
+/* ==========================================
+   SKILLNXT FAQ SECTION
+========================================== */
+
+.skillnxt-faq-section {
+    padding: 70px 0;
+    background: #f4f6fa;
+}
+
+
+/* FAQ HEADING */
+
+.skillnxt-faq-heading {
+    margin-bottom: 15px;
+}
+
+.skillnxt-faq-heading h2 {
+    color: #11337e;
+    font-size: 28px;
+    font-weight: 800;
+    margin: 0;
+}
+
+
+/* ==========================================
+   ACCORDION
+========================================== */
+
+.skillnxt-accordion .accordion-item {
+    border: none;
+    background: transparent;
+    margin-bottom: 10px;
+}
+
+
+/* ACCORDION BUTTON */
+
+.skillnxt-accordion .accordion-button {
+    background: #ffffff;
+    color: #11337e;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 14px 18px;
+    border-radius: 30px !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+
+/* REMOVE DEFAULT BOOTSTRAP ARROW STYLE */
+
+.skillnxt-accordion .accordion-button:focus {
+    box-shadow: none;
+}
+
+
+/* ACTIVE FAQ */
+
+.skillnxt-accordion .accordion-button:not(.collapsed) {
+    background: #ffffff;
+    color: #11337e;
+    box-shadow: none;
+}
+
+
+/* FAQ ANSWER */
+
+.skillnxt-accordion .accordion-body {
+    padding: 12px 18px 5px;
+    font-size: 13px;
+    line-height: 1.7;
+    color: #555;
+}
+
+
+/* REMOVE BORDER */
+
+.skillnxt-accordion .accordion-collapse {
+    border: none;
+}
+
+
+/* ==========================================
+   DEMO FORM
+========================================== */
+
+.skillnxt-demo-form {
+    background: #ffffff;
+    padding: 28px;
+    border-radius: 14px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.15);
+}
+
+
+.skillnxt-demo-form h3 {
+    color: #11337e;
+    font-size: 23px;
+    font-weight: 800;
+    margin-bottom: 6px;
+}
+
+
+.skillnxt-demo-form p {
+    color: #555;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+
+/* INPUTS */
+
+.skillnxt-demo-form input,
+.skillnxt-demo-form select,
+.skillnxt-demo-form textarea {
+    width: 100%;
+    border: 1px solid #d8dce3;
+    border-radius: 8px;
+    padding: 12px 15px;
+    font-size: 13px;
+    outline: none;
+    background: #ffffff;
+    transition: 0.3s ease;
+}
+
+
+/* TEXTAREA */
+
+.skillnxt-demo-form textarea {
+    resize: vertical;
+}
+
+
+/* INPUT FOCUS */
+
+.skillnxt-demo-form input:focus,
+.skillnxt-demo-form select:focus,
+.skillnxt-demo-form textarea:focus {
+    border-color: #11337e;
+    box-shadow: 0 0 0 3px rgba(17, 51, 126, 0.08);
+}
+
+
+/* PLACEHOLDER */
+
+.skillnxt-demo-form input::placeholder,
+.skillnxt-demo-form textarea::placeholder {
+    color: #777;
+}
+
+
+/* SUBMIT BUTTON */
+
+.skillnxt-demo-form button {
+    display: block;
+    margin: 10px auto 0;
+    padding: 10px 35px;
+    background: #11337e;
+    color: #ffffff;
+    border: none;
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+
+.skillnxt-demo-form button:hover {
+    background: #e8a838;
+    color: #11337e;
+}
+
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media (max-width: 991px) {
+
+    .skillnxt-faq-section {
+        padding: 60px 0;
+    }
+
+    .skillnxt-demo-form {
+        margin-top: 10px;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+
+    .skillnxt-faq-section {
+        padding: 50px 15px;
+    }
+
+    .skillnxt-faq-heading h2 {
+        font-size: 24px;
+    }
+
+    .skillnxt-demo-form {
+        padding: 20px;
+    }
+
+}
+ 
  /* Remove all underlines */
  a,
  a:hover,
@@ -1342,6 +2113,55 @@ a.text-dark.text-decoration-none.hover-warning {
          transform: translateY(-8px);
      }
  }
+ .about-skillnxt-section {
+    padding: 80px 0;
+    background: #ffffff;
+}
+
+.about-skillnxt-content {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-skillnxt-content h2 {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.about-skillnxt-content h2 span {
+    color: #ff7a00;
+}
+
+.about-skillnxt-content h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.about-skillnxt-content p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .about-skillnxt-section {
+        padding: 60px 20px;
+    }
+
+    .about-skillnxt-content h2 {
+        font-size: 30px;
+    }
+
+    .about-skillnxt-content p {
+        font-size: 16px;
+    }
+}
 
  /* Hero Badge */
  .hero-badge {
