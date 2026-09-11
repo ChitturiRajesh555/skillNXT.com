@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
-    <title>SKILLNXT | Blog</title>
-    <meta name="description" content="SKILLNXT | Blog - Learn from industry experts at SKILLNXT. 100% placement support.">
+    <title>SKILLNXT | Placement Statistics</title>
+    <meta name="description" content="SKILLNXT | Placement Statistics - Learn from industry experts at SKILLNXT. 100% placement support.">
     <!-- Bootstrap CSS -->
     <link href="../npm/bootstrap%405.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="../3.4.17"></script>
@@ -13,39 +13,45 @@
     <link rel="stylesheet" href="../ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="../assets/css/style.css">
     <style>
-        .blog-card {
-            background: white;
-            border-radius: 0.8rem;
-            overflow: hidden;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-            transition: all 0.3s ease;
-            border-left: 4px solid #11337e;
-        }
-
-        .blog-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 12px 24px rgba(17, 51, 126, 0.15);
-        }
-
-        .blog-card h5 {
+        .primary {
             color: #11337e;
+        }
+
+        .section-title {
             font-weight: 700;
+            font-size: 2.2rem;
         }
 
-        .blog-date {
-            color: #ffd700;
-            font-size: 0.85rem;
-            font-weight: 600;
+        .section-title span {
+            color: #11337e;
         }
 
-        .blog-card .btn {
-            /*background: #11337e;*/
-            border: none;
+        .counter-box {
+            background: white;
+            border-radius: 20px;
+            padding: 32px 24px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            text-align: center;
+            border: 2px solid #edf2f7;
+            transition: all 0.3s ease;
         }
 
-        .blog-card .btn:hover {
-            /*background: #0d2656;*/
-            color: white;
+        .counter-box:hover {
+            border-color: #11337e;
+            box-shadow: 0 15px 35px rgba(17, 51, 126, 0.15);
+            transform: translateY(-8px);
+        }
+
+        .counter-box h2 {
+            font-size: 2.8rem;
+            font-weight: 800;
+            color: #11337e;
+        }
+
+        .counter-box p {
+            color: #5e6f8c;
+            margin-top: 8px;
+            font-weight: 500;
         }
     </style>
 </head>
@@ -61,9 +67,9 @@
                             <span class="d-none d-sm-inline">7702997775</span>
                             <span class="d-sm-none">Call</span>
                         </a>
-                        <a href="mailto:" class="d-flex align-items-center gap-1 text-white-50 hover:text-white text-decoration-none">
+                        <a href="mailto:info@skillnxt.com" class="d-flex align-items-center gap-1 text-white-50 hover:text-white text-decoration-none">
                             <i class="fas fa-envelope"></i>
-                            <span class="d-none d-sm-inline"></span>
+                            <span class="d-none d-sm-inline">info@skillnxt.com</span>
                             <span class="d-sm-none">Email</span>
                         </a>
                     </div>
@@ -92,22 +98,22 @@
                     <div class="dropdown">
                         <a href="javascript:void(0)" class="text-dark dropdown-toggle text-decoration-none hover-warning" data-bs-toggle="dropdown">Trainings</a>
                         <ul class="dropdown-menu dropdown-menu-custom">
-                            <li><a class="dropdown-item-custom" href="training/classroom-training.html">
+                            <li><a class="dropdown-item-custom" href="classroom-training.html">
                 <div class="icon-wrap"><i class="fas fa-chalkboard-teacher"></i></div>
                 <div class="text-wrap"><b>Classroom Training</b><span>Learn at our campus</span></div>
-            </a></li><li><a class="dropdown-item-custom" href="training/online-live-training.html">
+            </a></li><li><a class="dropdown-item-custom" href="online-live-training.html">
                 <div class="icon-wrap"><i class="fas fa-laptop-code"></i></div>
                 <div class="text-wrap"><b>Online Live Training</b><span>Live expert-led classes</span></div>
-            </a></li><li><a class="dropdown-item-custom" href="training/video-based-learning.html">
+            </a></li><li><a class="dropdown-item-custom" href="video-based-learning.html">
                 <div class="icon-wrap"><i class="fas fa-video"></i></div>
                 <div class="text-wrap"><b>Video-Based Learning</b><span>Self-paced tutorials</span></div>
-            </a></li><li><a class="dropdown-item-custom" href="training/upcoming-batches.html">
+            </a></li><li><a class="dropdown-item-custom" href="upcoming-batches.html">
                 <div class="icon-wrap"><i class="fas fa-calendar-alt"></i></div>
                 <div class="text-wrap"><b>Upcoming Batches</b><span>Join next available slots</span></div>
-            </a></li><li><a class="dropdown-item-custom" href="training/weekend-batches.html">
+            </a></li><li><a class="dropdown-item-custom" href="weekend-batches.html">
                 <div class="icon-wrap"><i class="fas fa-calendar-day"></i></div>
                 <div class="text-wrap"><b>Weekend Batches</b><span>Perfect for professionals</span></div>
-            </a></li><li><a class="dropdown-item-custom" href="training/corporate-training.html">
+            </a></li><li><a class="dropdown-item-custom" href="corporate-training.html">
                 <div class="icon-wrap"><i class="fas fa-building"></i></div>
                 <div class="text-wrap"><b>Corporate Training</b><span>Upskill your company team</span></div>
             </a></li>
@@ -116,16 +122,16 @@
                     <div class="dropdown">
                         <a href="javascript:void(0)" class="text-dark dropdown-toggle text-decoration-none hover-warning" data-bs-toggle="dropdown">Placements</a>
                         <ul class="dropdown-menu dropdown-menu-custom">
-                            <li><a class="dropdown-item-custom" href="placements/placed-students.html">
+                            <li><a class="dropdown-item-custom" href="placed-students.html">
                 <div class="icon-wrap"><i class="fas fa-user-graduate"></i></div>
                 <div class="text-wrap"><b>Placed Students</b><span>Success stories from alumni</span></div>
-            </a></li><li><a class="dropdown-item-custom" href="placements/hiring-partners.html">
+            </a></li><li><a class="dropdown-item-custom" href="hiring-partners.html">
                 <div class="icon-wrap"><i class="fas fa-handshake"></i></div>
                 <div class="text-wrap"><b>Hiring Partners</b><span>150+ companies hiring</span></div>
-            </a></li><li><a class="dropdown-item-custom" href="placements/placement-statistics.html">
+            </a></li><li><a class="dropdown-item-custom" href="placement-statistics.html">
                 <div class="icon-wrap"><i class="fas fa-chart-bar"></i></div>
                 <div class="text-wrap"><b>Placement Stats</b><span>Verified job data</span></div>
-            </a></li><li><a class="dropdown-item-custom" href="placements/success-stories.html">
+            </a></li><li><a class="dropdown-item-custom" href="success-stories.html">
                 <div class="icon-wrap"><i class="fas fa-quote-left"></i></div>
                 <div class="text-wrap"><b>Success Stories</b><span>Career transformations</span></div>
             </a></li>
@@ -134,25 +140,25 @@
                     <div class="dropdown">
                         <a href="javascript:void(0)" class="text-dark dropdown-toggle text-decoration-none hover-warning" data-bs-toggle="dropdown">About</a>
                         <ul class="dropdown-menu dropdown-menu-custom">
-                            <li><a class="dropdown-item-custom" href="about/about-us.html">
+                            <li><a class="dropdown-item-custom" href="about-us.html">
                 <div class="icon-wrap"><i class="fas fa-info-circle"></i></div>
                 <div class="text-wrap"><b>About Us</b><span></span></div>
-            </a></li><li><a class="dropdown-item-custom" href="about/why-choose-us.html">
+            </a></li><li><a class="dropdown-item-custom" href="why-choose-us.html">
                 <div class="icon-wrap"><i class="fas fa-question-circle"></i></div>
                 <div class="text-wrap"><b>Why Choose Us</b><span></span></div>
-            </a></li><li><a class="dropdown-item-custom" href="about/certifications.html">
+            </a></li><li><a class="dropdown-item-custom" href="certifications.html">
                 <div class="icon-wrap"><i class="fas fa-certificate"></i></div>
                 <div class="text-wrap"><b>Certifications</b><span></span></div>
-            </a></li><li><a class="dropdown-item-custom" href="about/blog.html">
+            </a></li><li><a class="dropdown-item-custom" href="blog.html">
                 <div class="icon-wrap"><i class="fas fa-newspaper"></i></div>
                 <div class="text-wrap"><b>Blog</b><span></span></div>
             </a></li>
                         </ul>
                     </div>
-                    <a href="about/contact-us.html" class="text-dark text-decoration-none hover-warning">Contact</a>
+                    <a href="contact-us.html" class="text-dark text-decoration-none hover-warning">Contact</a>
                 </div>
 
-                <a href="about/contact-us.html" class="d-none d-lg-block primary-bg text-black fw-bold px-4 py-2 rounded-pill border-0 text-decoration-none">ENROLL NOW</a>
+                <a href="contact-us.html" class="d-none d-lg-block primary-bg text-black fw-bold px-4 py-2 rounded-pill border-0 text-decoration-none">ENROLL NOW</a>
                 <button class="hamburger d-lg-none" id="hamburgerBtn"><span></span><span></span><span></span></button>
             </div>
 
@@ -165,18 +171,18 @@
                 <a href="all-courses.html" class="nav-link">Courses</a>
                 <button class="dropdown-btn" onclick="toggleMobileDropdown(this)">Trainings <i class="fas fa-chevron-down"></i></button>
                 <div class="dropdown-content">
-                    <a href="training/classroom-training.html">Classroom Training</a><a href="training/online-live-training.html">Online Live Training</a><a href="training/video-based-learning.html">Video-Based Learning</a><a href="training/upcoming-batches.html">Upcoming Batches</a><a href="training/weekend-batches.html">Weekend Batches</a><a href="training/corporate-training.html">Corporate Training</a>
+                    <a href="classroom-training.html">Classroom Training</a><a href="online-live-training.html">Online Live Training</a><a href="video-based-learning.html">Video-Based Learning</a><a href="upcoming-batches.html">Upcoming Batches</a><a href="weekend-batches.html">Weekend Batches</a><a href="corporate-training.html">Corporate Training</a>
                 </div>
                 <button class="dropdown-btn" onclick="toggleMobileDropdown(this)">Placements <i class="fas fa-chevron-down"></i></button>
                 <div class="dropdown-content">
-                    <a href="placements/placed-students.html">Placed Students</a><a href="placements/hiring-partners.html">Hiring Partners</a><a href="placements/placement-statistics.html">Placement Stats</a><a href="placements/success-stories.html">Success Stories</a>
+                    <a href="placed-students.html">Placed Students</a><a href="hiring-partners.html">Hiring Partners</a><a href="placement-statistics.html">Placement Stats</a><a href="success-stories.html">Success Stories</a>
                 </div>
                 <button class="dropdown-btn" onclick="toggleMobileDropdown(this)">About <i class="fas fa-chevron-down"></i></button>
                 <div class="dropdown-content">
-                    <a href="about/about-us.html">About Us</a><a href="about/why-choose-us.html">Why Choose Us</a><a href="about/certifications.html">Certifications</a><a href="about/blog.html">Blog</a>
+                    <a href="about-us.html">About Us</a><a href="why-choose-us.html">Why Choose Us</a><a href="certifications.html">Certifications</a><a href="blog.html">Blog</a>
                 </div>
-                <a href="about/contact-us.html" class="nav-link">Contact</a>
-                <div class="p-3"><a href="about/contact-us.html" class="primary-bg text-black fw-bold px-4 py-3 rounded-pill border-0 w-100 text-center d-block text-decoration-none">ENROLL NOW</a></div>
+                <a href="contact-us.html" class="nav-link">Contact</a>
+                <div class="p-3"><a href="contact-us.html" class="primary-bg text-black fw-bold px-4 py-3 rounded-pill border-0 w-100 text-center d-block text-decoration-none">ENROLL NOW</a></div>
             </div>
         </div>
     </nav>
@@ -189,8 +195,8 @@
         <div class="container position-relative z-1" data-aos="fade-up">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <h1 class="display-5 fw-bold mb-3">About SKILLNXT</h1>
-                    <p class="fs-5 text-white-50 mb-0">Warangal's premier IT training institute. We bridge the gap between academic learning and industry requirements.</p>
+                    <h1 class="display-5 fw-bold mb-3">100% Placement Assistance</h1>
+                    <p class="fs-5 text-white-50 mb-0">Join our alumni network working at top MNCs. We provide resume building, mock interviews, and dedicated hiring partner drives.</p>
                 </div>
             </div>
         </div>
@@ -242,81 +248,92 @@
 
 
     <!-- PAGE CONTENT AREA -->
-    <div class="container py-5" style="min-height: 50vh;">
-        <p class="text-center text-muted mb-5" data-aos="fade-up" data-aos-delay="100">Latest insights, tips, and trends
-            in software development and tech careers.</p>
+    <div class="container py-5">
+        <div class="text-center mb-5" data-aos="fade-up">
+            <p class="text-muted fs-5 mt-4">Comprehensive data about our placement success rates and student
+                achievements across all batches.</p>
+        </div>
 
         <div class="row g-4">
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="card blog-card h-100">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-start mb-2">
-                            <h5 class="card-title">Getting Started with React.js</h5>
-                        </div>
-                        <p class="blog-date"><i class="fas fa-calendar-alt me-1"></i>Posted on March 15, 2024</p>
-                        <p class="card-text">Learn the fundamentals of React.js and build your first interactive
-                            component. In this comprehensive guide, we'll cover JSX, hooks, state management, and best
-                            practices for modern React development.</p>
-                        <span class="badge bg-primary me-2" style="background-color: #11337e !important;">React</span>
-                        <span class="badge bg-secondary">Frontend</span>
-                        <div class="mt-3">
-                            <a href="#" class="btn btn-sm btn-primary primary-bg text-dark fw-bold">Read More <i class="fas fa-arrow-right ms-1"></i></a>
-                        </div>
-                    </div>
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                <div class="counter-box">
+                    <i class="fas fa-chart-pie text-primary" style="font-size: 2rem; margin-bottom: 12px;"></i>
+                    <h2>95%</h2>
+                    <p>Placement Rate</p>
+                    <small class="text-muted">Out of 2500+ students</small>
                 </div>
             </div>
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="card blog-card h-100">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-start mb-2">
-                            <h5 class="card-title">Python Tips for Beginners</h5>
-                        </div>
-                        <p class="blog-date"><i class="fas fa-calendar-alt me-1"></i>Posted on March 12, 2024</p>
-                        <p class="card-text">Master essential Python concepts and best practices that will accelerate
-                            your learning journey. From data structures to object-oriented programming, we cover
-                            everything a beginner needs to know.</p>
-                        <span class="badge bg-success me-2">Python</span>
-                        <span class="badge bg-secondary">Backend</span>
-                        <div class="mt-3">
-                            <a href="#" class="btn btn-sm btn-primary primary-bg text-dark fw-bold">Read More <i class="fas fa-arrow-right ms-1"></i></a>
-                        </div>
-                    </div>
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                <div class="counter-box">
+                    <i class="fas fa-indian-rupee-sign text-primary" style="font-size: 2rem; margin-bottom: 12px;"></i>
+                    <h2>Ã¢â€šÂ¹7.5L</h2>
+                    <p>Average Salary</p>
+                    <small class="text-muted">Ranging from Ã¢â€šÂ¹3L - Ã¢â€šÂ¹15L</small>
                 </div>
             </div>
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-                <div class="card blog-card h-100">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-start mb-2">
-                            <h5 class="card-title">Full Stack Development Trends 2024</h5>
-                        </div>
-                        <p class="blog-date"><i class="fas fa-calendar-alt me-1"></i>Posted on March 10, 2024</p>
-                        <p class="card-text">Explore the latest trends shaping full stack development including AI
-                            integration, microservices architecture, cloud-native solutions, and containerization. Stay
-                            ahead of the curve in this rapidly evolving field.</p>
-                        <span class="badge bg-info text-dark me-2">Trends</span>
-                        <span class="badge bg-secondary">Development</span>
-                        <div class="mt-3">
-                            <a href="#" class="btn btn-sm btn-primary primary-bg text-dark fw-bold">Read More <i class="fas fa-arrow-right ms-1"></i></a>
-                        </div>
-                    </div>
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                <div class="counter-box">
+                    <i class="fas fa-users text-primary" style="font-size: 2rem; margin-bottom: 12px;"></i>
+                    <h2>2500+</h2>
+                    <p>Students Placed</p>
+                    <small class="text-muted">Since 2020</small>
                 </div>
             </div>
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-                <div class="card blog-card h-100">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-start mb-2">
-                            <h5 class="card-title">Understanding RESTful APIs</h5>
-                        </div>
-                        <p class="blog-date"><i class="fas fa-calendar-alt me-1"></i>Posted on March 8, 2024</p>
-                        <p class="card-text">Deep dive into RESTful API design principles and learn how to build
-                            scalable APIs that your applications can rely on. Covers HTTP methods, status codes,
-                            authentication, and real-world implementation patterns.</p>
-                        <span class="badge bg-warning text-dark me-2">APIs</span>
-                        <span class="badge bg-secondary">Backend</span>
-                        <div class="mt-3">
-                            <a href="#" class="btn btn-sm btn-primary primary-bg text-dark fw-bold">Read More <i class="fas fa-arrow-right ms-1"></i></a>
-                        </div>
-                    </div>
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+                <div class="counter-box">
+                    <i class="fas fa-building text-primary" style="font-size: 2rem; margin-bottom: 12px;"></i>
+                    <h2>50+</h2>
+                    <p>Hiring Companies</p>
+                    <small class="text-muted">From startups to MNCs</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-4 mt-5">
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="card p-4 shadow-sm">
+                    <h5 class="fw-bold mb-4">Top Hiring Sectors</h5>
+                    <ul class="list-unstyled">
+                        <li class="d-flex justify-content-between mb-3">
+                            <span>IT & Software</span>
+                            <span class="fw-bold">45%</span>
+                        </li>
+                        <li class="d-flex justify-content-between mb-3">
+                            <span>E-commerce</span>
+                            <span class="fw-bold">25%</span>
+                        </li>
+                        <li class="d-flex justify-content-between mb-3">
+                            <span>Finance & Banking</span>
+                            <span class="fw-bold">20%</span>
+                        </li>
+                        <li class="d-flex justify-content-between">
+                            <span>Other Sectors</span>
+                            <span class="fw-bold">10%</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="card p-4 shadow-sm">
+                    <h5 class="fw-bold mb-4">Salary Distribution</h5>
+                    <ul class="list-unstyled">
+                        <li class="d-flex justify-content-between mb-3">
+                            <span>Ã¢â€šÂ¹3L - Ã¢â€šÂ¹5L</span>
+                            <span class="fw-bold">15%</span>
+                        </li>
+                        <li class="d-flex justify-content-between mb-3">
+                            <span>Ã¢â€šÂ¹5L - Ã¢â€šÂ¹7L</span>
+                            <span class="fw-bold">35%</span>
+                        </li>
+                        <li class="d-flex justify-content-between mb-3">
+                            <span>Ã¢â€šÂ¹7L - Ã¢â€šÂ¹10L</span>
+                            <span class="fw-bold">40%</span>
+                        </li>
+                        <li class="d-flex justify-content-between">
+                            <span>Ã¢â€šÂ¹10L+</span>
+                            <span class="fw-bold">10%</span>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

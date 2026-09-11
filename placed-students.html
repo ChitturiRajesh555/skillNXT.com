@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
-    <title>SKILLNXT | Hiring Partners</title>
-    <meta name="description" content="SKILLNXT | Hiring Partners - Learn from industry experts at SKILLNXT. 100% placement support.">
+    <title>SKILLNXT | Placed Students</title>
+    <meta name="description" content="SKILLNXT | Placed Students - Learn from industry experts at SKILLNXT. 100% placement support.">
     <!-- Bootstrap CSS -->
     <link href="../npm/bootstrap%405.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="../3.4.17"></script>
@@ -17,6 +17,10 @@
             color: #11337e;
         }
 
+        .bg-primary-dark {
+            background: #11337e;
+        }
+
         .section-title {
             font-weight: 700;
             font-size: 2.2rem;
@@ -26,30 +30,50 @@
             color: #11337e;
         }
 
-        .partner-card {
+        .student-card {
             background: white;
             border-radius: 20px;
-            padding: 32px 24px;
+            padding: 24px;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
-            border: 2px solid transparent;
-            text-align: center;
+            border: 1px solid #edf2f7;
+            height: 100%;
             transition: all 0.3s ease;
-            min-height: 280px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
         }
 
-        .partner-card:hover {
-            border-color: #11337e;
+        .student-card:hover {
+            transform: translateY(-10px);
             box-shadow: 0 15px 35px rgba(17, 51, 126, 0.15);
-            transform: translateY(-8px);
         }
 
-        .partner-icon {
-            font-size: 3.5rem;
+        .salary-badge {
+            background: linear-gradient(135deg, #11337e 0%, #1a4aad 100%);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: 700;
+            display: inline-block;
+        }
+
+        .counter-stats {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 30px 0;
+        }
+
+        .counter-box {
+            text-align: center;
+        }
+
+        .counter-box h2 {
+            font-size: 2.8rem;
+            font-weight: 800;
             color: #11337e;
-            margin-bottom: 16px;
+        }
+
+        .counter-box p {
+            color: #5e6f8c;
+            margin-top: 5px;
         }
     </style>
 </head>
@@ -65,9 +89,9 @@
                             <span class="d-none d-sm-inline">7702997775</span>
                             <span class="d-sm-none">Call</span>
                         </a>
-                        <a href="mailto:" class="d-flex align-items-center gap-1 text-white-50 hover:text-white text-decoration-none">
+                        <a href="mailto:info@skillnxt.com" class="d-flex align-items-center gap-1 text-white-50 hover:text-white text-decoration-none">
                             <i class="fas fa-envelope"></i>
-                            <span class="d-none d-sm-inline"></span>
+                            <span class="d-none d-sm-inline">info@skillnxt.com</span>
                             <span class="d-sm-none">Email</span>
                         </a>
                     </div>
@@ -96,22 +120,22 @@
                     <div class="dropdown">
                         <a href="javascript:void(0)" class="text-dark dropdown-toggle text-decoration-none hover-warning" data-bs-toggle="dropdown">Trainings</a>
                         <ul class="dropdown-menu dropdown-menu-custom">
-                            <li><a class="dropdown-item-custom" href="training/classroom-training.html">
+                            <li><a class="dropdown-item-custom" href="classroom-training.html">
                 <div class="icon-wrap"><i class="fas fa-chalkboard-teacher"></i></div>
                 <div class="text-wrap"><b>Classroom Training</b><span>Learn at our campus</span></div>
-            </a></li><li><a class="dropdown-item-custom" href="training/online-live-training.html">
+            </a></li><li><a class="dropdown-item-custom" href="online-live-training.html">
                 <div class="icon-wrap"><i class="fas fa-laptop-code"></i></div>
                 <div class="text-wrap"><b>Online Live Training</b><span>Live expert-led classes</span></div>
-            </a></li><li><a class="dropdown-item-custom" href="training/video-based-learning.html">
+            </a></li><li><a class="dropdown-item-custom" href="video-based-learning.html">
                 <div class="icon-wrap"><i class="fas fa-video"></i></div>
                 <div class="text-wrap"><b>Video-Based Learning</b><span>Self-paced tutorials</span></div>
-            </a></li><li><a class="dropdown-item-custom" href="training/upcoming-batches.html">
+            </a></li><li><a class="dropdown-item-custom" href="upcoming-batches.html">
                 <div class="icon-wrap"><i class="fas fa-calendar-alt"></i></div>
                 <div class="text-wrap"><b>Upcoming Batches</b><span>Join next available slots</span></div>
-            </a></li><li><a class="dropdown-item-custom" href="training/weekend-batches.html">
+            </a></li><li><a class="dropdown-item-custom" href="weekend-batches.html">
                 <div class="icon-wrap"><i class="fas fa-calendar-day"></i></div>
                 <div class="text-wrap"><b>Weekend Batches</b><span>Perfect for professionals</span></div>
-            </a></li><li><a class="dropdown-item-custom" href="training/corporate-training.html">
+            </a></li><li><a class="dropdown-item-custom" href="corporate-training.html">
                 <div class="icon-wrap"><i class="fas fa-building"></i></div>
                 <div class="text-wrap"><b>Corporate Training</b><span>Upskill your company team</span></div>
             </a></li>
@@ -120,16 +144,16 @@
                     <div class="dropdown">
                         <a href="javascript:void(0)" class="text-dark dropdown-toggle text-decoration-none hover-warning" data-bs-toggle="dropdown">Placements</a>
                         <ul class="dropdown-menu dropdown-menu-custom">
-                            <li><a class="dropdown-item-custom" href="placements/placed-students.html">
+                            <li><a class="dropdown-item-custom" href="placed-students.html">
                 <div class="icon-wrap"><i class="fas fa-user-graduate"></i></div>
                 <div class="text-wrap"><b>Placed Students</b><span>Success stories from alumni</span></div>
-            </a></li><li><a class="dropdown-item-custom" href="placements/hiring-partners.html">
+            </a></li><li><a class="dropdown-item-custom" href="hiring-partners.html">
                 <div class="icon-wrap"><i class="fas fa-handshake"></i></div>
                 <div class="text-wrap"><b>Hiring Partners</b><span>150+ companies hiring</span></div>
-            </a></li><li><a class="dropdown-item-custom" href="placements/placement-statistics.html">
+            </a></li><li><a class="dropdown-item-custom" href="placement-statistics.html">
                 <div class="icon-wrap"><i class="fas fa-chart-bar"></i></div>
                 <div class="text-wrap"><b>Placement Stats</b><span>Verified job data</span></div>
-            </a></li><li><a class="dropdown-item-custom" href="placements/success-stories.html">
+            </a></li><li><a class="dropdown-item-custom" href="success-stories.html">
                 <div class="icon-wrap"><i class="fas fa-quote-left"></i></div>
                 <div class="text-wrap"><b>Success Stories</b><span>Career transformations</span></div>
             </a></li>
@@ -138,25 +162,25 @@
                     <div class="dropdown">
                         <a href="javascript:void(0)" class="text-dark dropdown-toggle text-decoration-none hover-warning" data-bs-toggle="dropdown">About</a>
                         <ul class="dropdown-menu dropdown-menu-custom">
-                            <li><a class="dropdown-item-custom" href="about/about-us.html">
+                            <li><a class="dropdown-item-custom" href="about-us.html">
                 <div class="icon-wrap"><i class="fas fa-info-circle"></i></div>
                 <div class="text-wrap"><b>About Us</b><span></span></div>
-            </a></li><li><a class="dropdown-item-custom" href="about/why-choose-us.html">
+            </a></li><li><a class="dropdown-item-custom" href="why-choose-us.html">
                 <div class="icon-wrap"><i class="fas fa-question-circle"></i></div>
                 <div class="text-wrap"><b>Why Choose Us</b><span></span></div>
-            </a></li><li><a class="dropdown-item-custom" href="about/certifications.html">
+            </a></li><li><a class="dropdown-item-custom" href="certifications.html">
                 <div class="icon-wrap"><i class="fas fa-certificate"></i></div>
                 <div class="text-wrap"><b>Certifications</b><span></span></div>
-            </a></li><li><a class="dropdown-item-custom" href="about/blog.html">
+            </a></li><li><a class="dropdown-item-custom" href="blog.html">
                 <div class="icon-wrap"><i class="fas fa-newspaper"></i></div>
                 <div class="text-wrap"><b>Blog</b><span></span></div>
             </a></li>
                         </ul>
                     </div>
-                    <a href="about/contact-us.html" class="text-dark text-decoration-none hover-warning">Contact</a>
+                    <a href="contact-us.html" class="text-dark text-decoration-none hover-warning">Contact</a>
                 </div>
 
-                <a href="about/contact-us.html" class="d-none d-lg-block primary-bg text-black fw-bold px-4 py-2 rounded-pill border-0 text-decoration-none">ENROLL NOW</a>
+                <a href="contact-us.html" class="d-none d-lg-block primary-bg text-black fw-bold px-4 py-2 rounded-pill border-0 text-decoration-none">ENROLL NOW</a>
                 <button class="hamburger d-lg-none" id="hamburgerBtn"><span></span><span></span><span></span></button>
             </div>
 
@@ -169,18 +193,18 @@
                 <a href="all-courses.html" class="nav-link">Courses</a>
                 <button class="dropdown-btn" onclick="toggleMobileDropdown(this)">Trainings <i class="fas fa-chevron-down"></i></button>
                 <div class="dropdown-content">
-                    <a href="training/classroom-training.html">Classroom Training</a><a href="training/online-live-training.html">Online Live Training</a><a href="training/video-based-learning.html">Video-Based Learning</a><a href="training/upcoming-batches.html">Upcoming Batches</a><a href="training/weekend-batches.html">Weekend Batches</a><a href="training/corporate-training.html">Corporate Training</a>
+                    <a href="classroom-training.html">Classroom Training</a><a href="online-live-training.html">Online Live Training</a><a href="video-based-learning.html">Video-Based Learning</a><a href="upcoming-batches.html">Upcoming Batches</a><a href="weekend-batches.html">Weekend Batches</a><a href="corporate-training.html">Corporate Training</a>
                 </div>
                 <button class="dropdown-btn" onclick="toggleMobileDropdown(this)">Placements <i class="fas fa-chevron-down"></i></button>
                 <div class="dropdown-content">
-                    <a href="placements/placed-students.html">Placed Students</a><a href="placements/hiring-partners.html">Hiring Partners</a><a href="placements/placement-statistics.html">Placement Stats</a><a href="placements/success-stories.html">Success Stories</a>
+                    <a href="placed-students.html">Placed Students</a><a href="hiring-partners.html">Hiring Partners</a><a href="placement-statistics.html">Placement Stats</a><a href="success-stories.html">Success Stories</a>
                 </div>
                 <button class="dropdown-btn" onclick="toggleMobileDropdown(this)">About <i class="fas fa-chevron-down"></i></button>
                 <div class="dropdown-content">
-                    <a href="about/about-us.html">About Us</a><a href="about/why-choose-us.html">Why Choose Us</a><a href="about/certifications.html">Certifications</a><a href="about/blog.html">Blog</a>
+                    <a href="about-us.html">About Us</a><a href="why-choose-us.html">Why Choose Us</a><a href="certifications.html">Certifications</a><a href="blog.html">Blog</a>
                 </div>
-                <a href="about/contact-us.html" class="nav-link">Contact</a>
-                <div class="p-3"><a href="about/contact-us.html" class="primary-bg text-black fw-bold px-4 py-3 rounded-pill border-0 w-100 text-center d-block text-decoration-none">ENROLL NOW</a></div>
+                <a href="contact-us.html" class="nav-link">Contact</a>
+                <div class="p-3"><a href="contact-us.html" class="primary-bg text-black fw-bold px-4 py-3 rounded-pill border-0 w-100 text-center d-block text-decoration-none">ENROLL NOW</a></div>
             </div>
         </div>
     </nav>
@@ -248,93 +272,138 @@
     <!-- PAGE CONTENT AREA -->
     <div class="container py-5">
         <div class="text-center mb-5" data-aos="fade-up">
-            <p class="text-muted fs-5 mt-4">We collaborate with leading companies across industries to provide placement
-                opportunities for our talented graduates.</p>
+            <p class="text-muted fs-5 mt-4">Meet our successful graduates who have secured positions in leading
+                companies worldwide.</p>
         </div>
 
-        <div class="row g-4">
+        <div class="counter-stats justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="counter-box">
+                <h2>2500+</h2>
+                <p>Students Placed</p>
+            </div>
+            <div class="counter-box">
+                <h2>95%</h2>
+                <p>Placement Rate</p>
+            </div>
+            <div class="counter-box">
+                <h2>Ã¢â€šÂ¹7.5L</h2>
+                <p>Avg Salary</p>
+            </div>
+        </div>
+
+        <div class="row g-4 mt-5">
             <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                <div class="partner-card">
-                    <div class="partner-icon">
-                        <i class="fas fa-code"></i>
+                <div class="student-card">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="bg-primary-dark rounded-circle p-3 text-white" style="width: 50px; height: 50px; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h5 class="mb-0">John Doe</h5>
+                            <p class="text-muted small mb-0">Python Full Stack</p>
+                        </div>
                     </div>
-                    <h5 class="card-title fw-bold mb-2">TechCorp Inc.</h5>
-                    <p class="text-muted small mb-3">Software Development & Enterprise Solutions</p>
-                    <ul class="list-unstyled text-muted small">
-                        <li><i class="fas fa-check text-success me-2"></i>Full Stack Developer</li>
-                        <li><i class="fas fa-check text-success me-2"></i>DevOps Engineer</li>
-                        <li><i class="fas fa-check text-success me-2"></i>QA Automation</li>
-                    </ul>
+                    <p class="card-text mb-3">Senior Developer at TechCorp Inc. with 2+ years experience in enterprise
+                        applications.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="salary-badge">Ã¢â€šÂ¹8.5 LPA</span>
+                        <span class="badge bg-success">Placed</span>
+                    </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-                <div class="partner-card">
-                    <div class="partner-icon">
-                        <i class="fas fa-globe"></i>
+                <div class="student-card">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="bg-primary-dark rounded-circle p-3 text-white" style="width: 50px; height: 50px; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h5 class="mb-0">Jane Smith</h5>
+                            <p class="text-muted small mb-0">MERN Stack Developer</p>
+                        </div>
                     </div>
-                    <h5 class="card-title fw-bold mb-2">WebSolutions Ltd.</h5>
-                    <p class="text-muted small mb-3">Web Development & Digital Marketing</p>
-                    <ul class="list-unstyled text-muted small">
-                        <li><i class="fas fa-check text-success me-2"></i>Frontend Developer</li>
-                        <li><i class="fas fa-check text-success me-2"></i>Backend Developer</li>
-                        <li><i class="fas fa-check text-success me-2"></i>UI/UX Designer</li>
-                    </ul>
+                    <p class="card-text mb-3">Frontend Developer at WebSolutions focusing on React.js and modern UI/UX
+                        implementation.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="salary-badge">Ã¢â€šÂ¹7.2 LPA</span>
+                        <span class="badge bg-success">Placed</span>
+                    </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-                <div class="partner-card">
-                    <div class="partner-icon">
-                        <i class="fas fa-cloud"></i>
+                <div class="student-card">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="bg-primary-dark rounded-circle p-3 text-white" style="width: 50px; height: 50px; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h5 class="mb-0">Raj Patel</h5>
+                            <p class="text-muted small mb-0">Java Full Stack</p>
+                        </div>
                     </div>
-                    <h5 class="card-title fw-bold mb-2">CloudTech Solutions</h5>
-                    <p class="text-muted small mb-3">Cloud Computing & Infrastructure</p>
-                    <ul class="list-unstyled text-muted small">
-                        <li><i class="fas fa-check text-success me-2"></i>DevOps Engineer</li>
-                        <li><i class="fas fa-check text-success me-2"></i>Cloud Architect</li>
-                        <li><i class="fas fa-check text-success me-2"></i>Backend Development</li>
-                    </ul>
+                    <p class="card-text mb-3">Backend Developer at CloudTech specializing in microservices and cloud
+                        architecture.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="salary-badge">Ã¢â€šÂ¹8.0 LPA</span>
+                        <span class="badge bg-success">Placed</span>
+                    </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                <div class="partner-card">
-                    <div class="partner-icon">
-                        <i class="fas fa-database"></i>
+                <div class="student-card">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="bg-primary-dark rounded-circle p-3 text-white" style="width: 50px; height: 50px; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h5 class="mb-0">Priya Kumar</h5>
+                            <p class="text-muted small mb-0">React.js Developer</p>
+                        </div>
                     </div>
-                    <h5 class="card-title fw-bold mb-2">DataCorp Analytics</h5>
-                    <p class="text-muted small mb-3">Big Data & Analytics Solutions</p>
-                    <ul class="list-unstyled text-muted small">
-                        <li><i class="fas fa-check text-success me-2"></i>Data Engineer</li>
-                        <li><i class="fas fa-check text-success me-2"></i>Python Developer</li>
-                        <li><i class="fas fa-check text-success me-2"></i>Analytics Specialist</li>
-                    </ul>
+                    <p class="card-text mb-3">UI/UX Developer at Design Studios creating interactive web applications
+                        for startups.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="salary-badge">Ã¢â€šÂ¹6.8 LPA</span>
+                        <span class="badge bg-success">Placed</span>
+                    </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-                <div class="partner-card">
-                    <div class="partner-icon">
-                        <i class="fas fa-mobile-alt"></i>
+                <div class="student-card">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="bg-primary-dark rounded-circle p-3 text-white" style="width: 50px; height: 50px; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h5 class="mb-0">Arun Singh</h5>
+                            <p class="text-muted small mb-0">Node.js Developer</p>
+                        </div>
                     </div>
-                    <h5 class="card-title fw-bold mb-2">MobileFirst Tech</h5>
-                    <p class="text-muted small mb-3">Mobile App Development</p>
-                    <ul class="list-unstyled text-muted small">
-                        <li><i class="fas fa-check text-success me-2"></i>React Native Dev</li>
-                        <li><i class="fas fa-check text-success me-2"></i>iOS Developer</li>
-                        <li><i class="fas fa-check text-success me-2"></i>Android Developer</li>
-                    </ul>
+                    <p class="card-text mb-3">Backend Engineer at TechVentures building scalable REST APIs and real-time
+                        applications.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="salary-badge">Ã¢â€šÂ¹8.2 LPA</span>
+                        <span class="badge bg-success">Placed</span>
+                    </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-                <div class="partner-card">
-                    <div class="partner-icon">
-                        <i class="fas fa-shield-alt"></i>
+                <div class="student-card">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="bg-primary-dark rounded-circle p-3 text-white" style="width: 50px; height: 50px; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h5 class="mb-0">Neha Sharma</h5>
+                            <p class="text-muted small mb-0">MongoDB Specialist</p>
+                        </div>
                     </div>
-                    <h5 class="card-title fw-bold mb-2">SecureNet Systems</h5>
-                    <p class="text-muted small mb-3">Cybersecurity & IT Infrastructure</p>
-                    <ul class="list-unstyled text-muted small">
-                        <li><i class="fas fa-check text-success me-2"></i>Security Engineer</li>
-                        <li><i class="fas fa-check text-success me-2"></i>Network Admin</li>
-                        <li><i class="fas fa-check text-success me-2"></i>System Engineer</li>
-                    </ul>
+                    <p class="card-text mb-3">Database Developer at DataCorp managing large-scale NoSQL implementations
+                        and optimization.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="salary-badge">Ã¢â€šÂ¹7.5 LPA</span>
+                        <span class="badge bg-success">Placed</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -445,7 +514,7 @@
                         <i class="fas fa-map-marker-alt"></i>
                         <span>
                             SKILLNXT Training Institute<br>
-                            , Telangana
+                            Warangal, Telangana
                         </span>
                     </div>
 

@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
-    <title>SKILLNXT | Why Choose Us</title>
-    <meta name="description" content="SKILLNXT | Why Choose Us - Learn from industry experts at SKILLNXT. 100% placement support.">
+    <title>SKILLNXT | Contact Us</title>
+    <meta name="description" content="SKILLNXT | Contact Us - Learn from industry experts at SKILLNXT. 100% placement support.">
     <!-- Bootstrap CSS -->
     <link href="../npm/bootstrap%405.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="../3.4.17"></script>
@@ -13,139 +13,70 @@
     <link rel="stylesheet" href="../ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="../assets/css/style.css">
     <style>
-        .primary {
-            color: #11337e;
-        }
-
-        .section-title {
-            font-weight: 700;
-            font-size: 2.2rem;
-        }
-
-        .section-title span {
-            color: #11337e;
-        }
-
-        .feature-card {
+        .contact-form {
             background: white;
-            border-radius: 20px;
-            padding: 32px 24px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            border-radius: 0.8rem;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+            padding: 2.5rem;
+        }
+
+        .contact-form .form-label {
+            color: #11337e;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-form .form-control {
+            border-color: #e8ebf5;
+            border-radius: 0.5rem;
+            padding: 0.75rem 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .contact-form .form-control:focus {
+            border-color: #11337e;
+            box-shadow: 0 0 0 0.2rem rgba(17, 51, 126, 0.15);
+        }
+
+        .contact-btn {
+            /*background: #11337e;*/
+            border: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .contact-btn:hover {
+            /*background: #0d2656;*/
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(17, 51, 126, 0.3);
+        }
+
+        .contact-info-card {
+            background: #f8f9ff;
+            border-radius: 0.8rem;
+            padding: 1.5rem;
             text-align: center;
             transition: all 0.3s ease;
-            border: 2px solid transparent;
+            border: 1px solid #e8ebf5;
         }
 
-        .feature-card:hover {
+        .contact-info-card:hover {
+            background: white;
             border-color: #11337e;
-            box-shadow: 0 15px 35px rgba(17, 51, 126, 0.15);
-            transform: translateY(-8px);
+            transform: translateY(-4px);
+            box-shadow: 0 6px 16px rgba(17, 51, 126, 0.12);
         }
 
-        .feature-icon {
-            font-size: 3rem;
+        .contact-info-card i {
             color: #11337e;
-            margin-bottom: 16px;
+            font-size: 2rem;
+            margin-bottom: 1rem;
         }
-        .why-skillnxt-section {
-    padding: 80px 0;
-    background: #f8f9fa;
-}
 
-.why-skillnxt-heading {
-    text-align: center;
-    max-width: 750px;
-    margin: 0 auto 50px;
-}
-
-.why-skillnxt-heading h2 {
-    font-size: 38px;
-    font-weight: 700;
-    color: #222;
-    margin-bottom: 15px;
-}
-
-.why-skillnxt-heading h2 span {
-    color: #ff7a00;
-}
-
-.why-skillnxt-heading p {
-    font-size: 17px;
-    color: #666;
-    line-height: 1.7;
-}
-
-.why-skillnxt-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-}
-
-.why-skillnxt-card {
-    background: #ffffff;
-    padding: 30px 25px;
-    border-radius: 12px;
-    text-align: center;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
-    transition: 0.3s ease;
-}
-
-.why-skillnxt-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
-}
-
-.why-icon {
-    width: 65px;
-    height: 65px;
-    margin: 0 auto 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #fff3e8;
-    border-radius: 50%;
-    font-size: 30px;
-}
-
-.why-skillnxt-card h3 {
-    font-size: 20px;
-    font-weight: 700;
-    color: #222;
-    margin-bottom: 12px;
-}
-
-.why-skillnxt-card p {
-    font-size: 15px;
-    line-height: 1.7;
-    color: #666;
-    margin: 0;
-}
-
-/* Tablet */
-@media (max-width: 991px) {
-    .why-skillnxt-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-/* Mobile */
-@media (max-width: 576px) {
-    .why-skillnxt-section {
-        padding: 60px 20px;
-    }
-
-    .why-skillnxt-heading h2 {
-        font-size: 30px;
-    }
-
-    .why-skillnxt-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .why-skillnxt-card {
-        padding: 25px 20px;
-    }
-}
+        .contact-info-card h5 {
+            color: #11337e;
+            font-weight: 700;
+        }
     </style>
 </head>
 
@@ -160,9 +91,9 @@
                             <span class="d-none d-sm-inline">7702997775</span>
                             <span class="d-sm-none">Call</span>
                         </a>
-                        <a href="mailto:" class="d-flex align-items-center gap-1 text-white-50 hover:text-white text-decoration-none">
+                        <a href="mailto:info@skillnxt.com" class="d-flex align-items-center gap-1 text-white-50 hover:text-white text-decoration-none">
                             <i class="fas fa-envelope"></i>
-                            <span class="d-none d-sm-inline"></span>
+                            <span class="d-none d-sm-inline">info@skillnxt.com</span>
                             <span class="d-sm-none">Email</span>
                         </a>
                     </div>
@@ -191,22 +122,22 @@
                     <div class="dropdown">
                         <a href="javascript:void(0)" class="text-dark dropdown-toggle text-decoration-none hover-warning" data-bs-toggle="dropdown">Trainings</a>
                         <ul class="dropdown-menu dropdown-menu-custom">
-                            <li><a class="dropdown-item-custom" href="training/classroom-training.html">
+                            <li><a class="dropdown-item-custom" href="classroom-training.html">
                 <div class="icon-wrap"><i class="fas fa-chalkboard-teacher"></i></div>
                 <div class="text-wrap"><b>Classroom Training</b><span>Learn at our campus</span></div>
-            </a></li><li><a class="dropdown-item-custom" href="training/online-live-training.html">
+            </a></li><li><a class="dropdown-item-custom" href="online-live-training.html">
                 <div class="icon-wrap"><i class="fas fa-laptop-code"></i></div>
                 <div class="text-wrap"><b>Online Live Training</b><span>Live expert-led classes</span></div>
-            </a></li><li><a class="dropdown-item-custom" href="training/video-based-learning.html">
+            </a></li><li><a class="dropdown-item-custom" href="video-based-learning.html">
                 <div class="icon-wrap"><i class="fas fa-video"></i></div>
                 <div class="text-wrap"><b>Video-Based Learning</b><span>Self-paced tutorials</span></div>
-            </a></li><li><a class="dropdown-item-custom" href="training/upcoming-batches.html">
+            </a></li><li><a class="dropdown-item-custom" href="upcoming-batches.html">
                 <div class="icon-wrap"><i class="fas fa-calendar-alt"></i></div>
                 <div class="text-wrap"><b>Upcoming Batches</b><span>Join next available slots</span></div>
-            </a></li><li><a class="dropdown-item-custom" href="training/weekend-batches.html">
+            </a></li><li><a class="dropdown-item-custom" href="weekend-batches.html">
                 <div class="icon-wrap"><i class="fas fa-calendar-day"></i></div>
                 <div class="text-wrap"><b>Weekend Batches</b><span>Perfect for professionals</span></div>
-            </a></li><li><a class="dropdown-item-custom" href="training/corporate-training.html">
+            </a></li><li><a class="dropdown-item-custom" href="corporate-training.html">
                 <div class="icon-wrap"><i class="fas fa-building"></i></div>
                 <div class="text-wrap"><b>Corporate Training</b><span>Upskill your company team</span></div>
             </a></li>
@@ -215,16 +146,16 @@
                     <div class="dropdown">
                         <a href="javascript:void(0)" class="text-dark dropdown-toggle text-decoration-none hover-warning" data-bs-toggle="dropdown">Placements</a>
                         <ul class="dropdown-menu dropdown-menu-custom">
-                            <li><a class="dropdown-item-custom" href="placements/placed-students.html">
+                            <li><a class="dropdown-item-custom" href="placed-students.html">
                 <div class="icon-wrap"><i class="fas fa-user-graduate"></i></div>
                 <div class="text-wrap"><b>Placed Students</b><span>Success stories from alumni</span></div>
-            </a></li><li><a class="dropdown-item-custom" href="placements/hiring-partners.html">
+            </a></li><li><a class="dropdown-item-custom" href="hiring-partners.html">
                 <div class="icon-wrap"><i class="fas fa-handshake"></i></div>
                 <div class="text-wrap"><b>Hiring Partners</b><span>150+ companies hiring</span></div>
-            </a></li><li><a class="dropdown-item-custom" href="placements/placement-statistics.html">
+            </a></li><li><a class="dropdown-item-custom" href="placement-statistics.html">
                 <div class="icon-wrap"><i class="fas fa-chart-bar"></i></div>
                 <div class="text-wrap"><b>Placement Stats</b><span>Verified job data</span></div>
-            </a></li><li><a class="dropdown-item-custom" href="placements/success-stories.html">
+            </a></li><li><a class="dropdown-item-custom" href="success-stories.html">
                 <div class="icon-wrap"><i class="fas fa-quote-left"></i></div>
                 <div class="text-wrap"><b>Success Stories</b><span>Career transformations</span></div>
             </a></li>
@@ -233,25 +164,25 @@
                     <div class="dropdown">
                         <a href="javascript:void(0)" class="text-dark dropdown-toggle text-decoration-none hover-warning" data-bs-toggle="dropdown">About</a>
                         <ul class="dropdown-menu dropdown-menu-custom">
-                            <li><a class="dropdown-item-custom" href="about/about-us.html">
+                            <li><a class="dropdown-item-custom" href="about-us.html">
                 <div class="icon-wrap"><i class="fas fa-info-circle"></i></div>
                 <div class="text-wrap"><b>About Us</b><span></span></div>
-            </a></li><li><a class="dropdown-item-custom" href="about/why-choose-us.html">
+            </a></li><li><a class="dropdown-item-custom" href="why-choose-us.html">
                 <div class="icon-wrap"><i class="fas fa-question-circle"></i></div>
                 <div class="text-wrap"><b>Why Choose Us</b><span></span></div>
-            </a></li><li><a class="dropdown-item-custom" href="about/certifications.html">
+            </a></li><li><a class="dropdown-item-custom" href="certifications.html">
                 <div class="icon-wrap"><i class="fas fa-certificate"></i></div>
                 <div class="text-wrap"><b>Certifications</b><span></span></div>
-            </a></li><li><a class="dropdown-item-custom" href="about/blog.html">
+            </a></li><li><a class="dropdown-item-custom" href="blog.html">
                 <div class="icon-wrap"><i class="fas fa-newspaper"></i></div>
                 <div class="text-wrap"><b>Blog</b><span></span></div>
             </a></li>
                         </ul>
                     </div>
-                    <a href="about/contact-us.html" class="text-dark text-decoration-none hover-warning">Contact</a>
+                    <a href="contact-us.html" class="text-dark text-decoration-none hover-warning">Contact</a>
                 </div>
 
-                <a href="about/contact-us.html" class="d-none d-lg-block primary-bg text-black fw-bold px-4 py-2 rounded-pill border-0 text-decoration-none">ENROLL NOW</a>
+                <a href="contact-us.html" class="d-none d-lg-block primary-bg text-black fw-bold px-4 py-2 rounded-pill border-0 text-decoration-none">ENROLL NOW</a>
                 <button class="hamburger d-lg-none" id="hamburgerBtn"><span></span><span></span><span></span></button>
             </div>
 
@@ -264,18 +195,18 @@
                 <a href="all-courses.html" class="nav-link">Courses</a>
                 <button class="dropdown-btn" onclick="toggleMobileDropdown(this)">Trainings <i class="fas fa-chevron-down"></i></button>
                 <div class="dropdown-content">
-                    <a href="training/classroom-training.html">Classroom Training</a><a href="training/online-live-training.html">Online Live Training</a><a href="training/video-based-learning.html">Video-Based Learning</a><a href="training/upcoming-batches.html">Upcoming Batches</a><a href="training/weekend-batches.html">Weekend Batches</a><a href="training/corporate-training.html">Corporate Training</a>
+                    <a href="classroom-training.html">Classroom Training</a><a href="online-live-training.html">Online Live Training</a><a href="video-based-learning.html">Video-Based Learning</a><a href="upcoming-batches.html">Upcoming Batches</a><a href="weekend-batches.html">Weekend Batches</a><a href="corporate-training.html">Corporate Training</a>
                 </div>
                 <button class="dropdown-btn" onclick="toggleMobileDropdown(this)">Placements <i class="fas fa-chevron-down"></i></button>
                 <div class="dropdown-content">
-                    <a href="placements/placed-students.html">Placed Students</a><a href="placements/hiring-partners.html">Hiring Partners</a><a href="placements/placement-statistics.html">Placement Stats</a><a href="placements/success-stories.html">Success Stories</a>
+                    <a href="placed-students.html">Placed Students</a><a href="hiring-partners.html">Hiring Partners</a><a href="placement-statistics.html">Placement Stats</a><a href="success-stories.html">Success Stories</a>
                 </div>
                 <button class="dropdown-btn" onclick="toggleMobileDropdown(this)">About <i class="fas fa-chevron-down"></i></button>
                 <div class="dropdown-content">
-                    <a href="about/about-us.html">About Us</a><a href="about/why-choose-us.html">Why Choose Us</a><a href="about/certifications.html">Certifications</a><a href="about/blog.html">Blog</a>
+                    <a href="about-us.html">About Us</a><a href="why-choose-us.html">Why Choose Us</a><a href="certifications.html">Certifications</a><a href="blog.html">Blog</a>
                 </div>
-                <a href="about/contact-us.html" class="nav-link">Contact</a>
-                <div class="p-3"><a href="about/contact-us.html" class="primary-bg text-black fw-bold px-4 py-3 rounded-pill border-0 w-100 text-center d-block text-decoration-none">ENROLL NOW</a></div>
+                <a href="contact-us.html" class="nav-link">Contact</a>
+                <div class="p-3"><a href="contact-us.html" class="primary-bg text-black fw-bold px-4 py-3 rounded-pill border-0 w-100 text-center d-block text-decoration-none">ENROLL NOW</a></div>
             </div>
         </div>
     </nav>
@@ -297,123 +228,128 @@
     
     
     
-    <section class="why-skillnxt-section">
-    <div class="container">
+    
 
-        <!-- Heading -->
-        <div class="why-skillnxt-heading">
-            <h2>🤝 Why Choose <span>SkillNxt Academy?</span></h2>
-            <p>Empowering you with the skills, confidence, and support to build a successful career.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- PAGE CONTENT AREA -->
+    <div class="container py-5" style="min-height: 50vh;">
+        <p class="text-center text-muted mb-5" data-aos="fade-up" data-aos-delay="100">Have questions? We'd love to hear
+            from you. Get in touch with our support team today.</p>
+
+        <div class="row g-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-8 mx-auto">
+                <form class="contact-form">
+                    <div class="mb-3">
+                        <label for="name" class="form-label"><i class="fas fa-user me-2" style="color: #11337e;"></i>Full Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Full Name" required="">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="email" class="form-label"><i class="fas fa-envelope me-2" style="color: #11337e;"></i>Email Address</label>
+                            <input type="email" class="form-control" id="email" placeholder="your.email@example.com" required="">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="phone" class="form-label"><i class="fas fa-phone me-2" style="color: #11337e;"></i>Phone Number</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="+91 XXXXXXXX000" required="">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="subject" class="form-label"><i class="fas fa-heading me-2" style="color: #11337e;"></i>Subject</label>
+                        <input type="text" class="form-control" id="subject" placeholder="How can we help?" required="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label"><i class="fas fa-comment me-2" style="color: #11337e;"></i>Message</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Your message here..." required=""></textarea>
+                    </div>
+                    <button type="submit" class="btn contact-btn primary-bg text-dark fw-bold">
+                        <i class="fas fa-paper-plane me-2"></i>Send Message
+                    </button>
+                </form>
+            </div>
         </div>
 
-        <!-- Cards -->
-        <div class="why-skillnxt-grid">
-
-            <div class="why-skillnxt-card">
-                <div class="why-icon">📚</div>
-                <h3>Industry-Relevant Curriculum</h3>
-                <p>
-                    Learn technologies, tools, and practices aligned with real-world industry requirements.
-                </p>
+        <div class="row g-4 mt-5" data-aos="fade-up" data-aos-delay="300">
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="card contact-info-card h-100 p-4">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h5 class="card-title">Location</h5>
+                    <p class="card-text text-muted small">Warangal</p>
+                </div>
             </div>
-
-            <div class="why-skillnxt-card">
-                <div class="why-icon">💻</div>
-                <h3>Practical, Hands-on Learning</h3>
-                <p>
-                    Move beyond theory with practical exercises, assignments, projects, and real-world scenarios.
-                </p>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="card contact-info-card h-100 p-4">
+                    <i class="fas fa-phone"></i>
+                    <h5 class="card-title">Phone</h5>
+                    <p class="card-text text-muted"><a href="tel:7702997775" class="text-decoration-none" style="color: #11337e; font-weight: 600;">7702997775</a></p>
+                    <p class="card-text text-muted small">Mon - Sat: 10 AM - 6 PM</p>
+                </div>
             </div>
-
-            <div class="why-skillnxt-card">
-                <div class="why-icon">👨‍🏫</div>
-                <h3>Experienced Trainers</h3>
-                <p>
-                    Learn from trainers and industry professionals who bring practical knowledge and real-world experience into the classroom.
-                </p>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+                <div class="card contact-info-card h-100 p-4">
+                    <i class="fas fa-envelope"></i>
+                    <h5 class="card-title">Email</h5>
+                    <p class="card-text text-muted"><a href="mailto:" class="text-decoration-none" style="color: #11337e; font-weight: 600;"></a></p>
+                    <p class="card-text text-muted small">We'll respond within 24 hours</p>
+                </div>
             </div>
-
-            <div class="why-skillnxt-card">
-                <div class="why-icon">🎯</div>
-                <h3>Career-Focused Programs</h3>
-                <p>
-                    Our courses are designed around practical job roles and the skills employers look for.
-                </p>
-            </div>
-
-            <div class="why-skillnxt-card">
-                <div class="why-icon">📝</div>
-                <h3>Interview &amp; Career Preparation</h3>
-                <p>
-                    Build confidence through technical interview preparation, resume guidance, professional communication, and career coaching.
-                </p>
-            </div>
-
-            <div class="why-skillnxt-card">
-                <div class="why-icon">⏰</div>
-                <h3>Flexible Learning</h3>
-                <p>
-                    Training programs designed to accommodate the needs of both freshers and working professionals.
-                </p>
-            </div>
-
-            <div class="why-skillnxt-card">
-                <div class="why-icon">🤝</div>
-                <h3>Continuous Mentorship &amp; Support</h3>
-                <p>
-                    Receive guidance throughout your learning journey, from understanding concepts to preparing for your next career opportunity.
-                </p>
-            </div>
-
         </div>
-
     </div>
-</section>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+    <div class="container-fluid m-3">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3794.420049055553!2d79.52222617517928!3d18.00569948299078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTjCsDAwJzIwLjUiTiA3OcKwMzEnMjkuMyJF!5e0!3m2!1sen!2sin!4v1789016043000!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
 
     <!-- FOOTER -->
+
+
+
+
+
+
+
+
+
+
+    
     <footer class="skillnxt-footer">
 
         <div class="skillnxt-footer-overlay"></div>
@@ -425,7 +361,7 @@
                 <!-- ABOUT -->
                 <div class="col-lg-3 col-md-6">
 
-                    <img src="assets/images/logo/logo.png"
+                    <img src="/assets/images/logo/logo.png"
                         alt="SKILLNXT Logo"
                         class="skillnxt-footer-logo">
 

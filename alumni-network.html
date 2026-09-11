@@ -1,13 +1,394 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
     <title>SKILLFINTECH | Alumni Network</title>
-    <meta http-equiv="refresh" content="0; url=about/alumni-network.html">
-    <link rel="canonical" href="about/alumni-network.html">
+    <meta name="description" content="SKILLFINTECH | Alumni Network - Learn from industry experts at SKILLFINTECH. 100% placement support.">
+    <!-- Bootstrap CSS -->
+    <link href="../npm/bootstrap%405.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="../3.4.17"></script>
+    <link rel="stylesheet" href="../ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .primary {
+            color: #11337e;
+        }
+
+        .section-title {
+            font-weight: 700;
+            font-size: 2.2rem;
+        }
+
+        .section-title span {
+            color: #11337e;
+        }
+
+        .benefit-card {
+            background: white;
+            border-radius: 20px;
+            padding: 32px 24px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            text-align: center;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .benefit-card:hover {
+            border-color: #11337e;
+            box-shadow: 0 15px 35px rgba(17, 51, 126, 0.15);
+            transform: translateY(-8px);
+        }
+
+        .benefit-icon {
+            font-size: 3rem;
+            color: #11337e;
+            margin-bottom: 16px;
+        }
+    </style>
 </head>
-<body>
-    <p>Redirecting to <a href="about/alumni-network.html">Alumni Network</a>...</p>
+
+<body class="bg-gray-50">
+    <div class="top-header py-1.5 text-[11px] md:text-sm">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-7 col-md-6">
+                    <div class="d-flex gap-2 gap-md-5">
+                        <a href="tel:7702997775" class="d-flex align-items-center gap-1 text-white-50 hover:text-white text-decoration-none">
+                            <i class="fas fa-phone"></i>
+                            <span class="d-none d-sm-inline">7702997775</span>
+                            <span class="d-sm-none">Call</span>
+                        </a>
+                        <a href="mailto:info@skillnxt.com" class="d-flex align-items-center gap-1 text-white-50 hover:text-white text-decoration-none">
+                            <i class="fas fa-envelope"></i>
+                            <span class="d-none d-sm-inline">info@skillnxt.com</span>
+                            <span class="d-sm-none">Email</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-5 col-md-6 text-end">
+                    <div class="d-flex gap-2 gap-md-4 justify-content-end">
+                        <a href="https://www.linkedin.com/company/skillnxt-career-academy/" class="text-white-50 hover:text-white"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/skillnxtcareer?utm_source=qr&stkn=cW5tajZjdmk0MGp4" class="text-white-50 hover:text-white"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/skillnxtcareer" class="text-white-50 hover:text-white"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.youtube.com/@SkillNxtCareer" class="text-white-50 hover:text-white"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="sticky-top bg-white">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between py-1">
+                <a href="index.html" class="text-decoration-none">
+                    <img src="assets/images/logo/logo.png" alt="Logo" id="logo-site" style="height: 70px; border-radius: 10px;">
+                </a>
+
+                <div class="d-none d-lg-flex gap-4 fw-semibold align-items-center">
+                    <a href="index.html" class="text-dark text-decoration-none hover-warning">Home</a>
+                    <a href="all-courses.html" class="text-dark text-decoration-none hover-warning">Courses</a>
+                    <div class="dropdown">
+                        <a href="javascript:void(0)" class="text-dark dropdown-toggle text-decoration-none hover-warning" data-bs-toggle="dropdown">Trainings</a>
+                        <ul class="dropdown-menu dropdown-menu-custom">
+                            <li><a class="dropdown-item-custom" href="classroom-training.html">
+                <div class="icon-wrap"><i class="fas fa-chalkboard-teacher"></i></div>
+                <div class="text-wrap"><b>Classroom Training</b><span>Learn at our campus</span></div>
+            </a></li><li><a class="dropdown-item-custom" href="online-live-training.html">
+                <div class="icon-wrap"><i class="fas fa-laptop-code"></i></div>
+                <div class="text-wrap"><b>Online Live Training</b><span>Live expert-led classes</span></div>
+            </a></li><li><a class="dropdown-item-custom" href="video-based-learning.html">
+                <div class="icon-wrap"><i class="fas fa-video"></i></div>
+                <div class="text-wrap"><b>Video-Based Learning</b><span>Self-paced tutorials</span></div>
+            </a></li><li><a class="dropdown-item-custom" href="upcoming-batches.html">
+                <div class="icon-wrap"><i class="fas fa-calendar-alt"></i></div>
+                <div class="text-wrap"><b>Upcoming Batches</b><span>Join next available slots</span></div>
+            </a></li><li><a class="dropdown-item-custom" href="weekend-batches.html">
+                <div class="icon-wrap"><i class="fas fa-calendar-day"></i></div>
+                <div class="text-wrap"><b>Weekend Batches</b><span>Perfect for professionals</span></div>
+            </a></li><li><a class="dropdown-item-custom" href="corporate-training.html">
+                <div class="icon-wrap"><i class="fas fa-building"></i></div>
+                <div class="text-wrap"><b>Corporate Training</b><span>Upskill your company team</span></div>
+            </a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <a href="javascript:void(0)" class="text-dark dropdown-toggle text-decoration-none hover-warning" data-bs-toggle="dropdown">Placements</a>
+                        <ul class="dropdown-menu dropdown-menu-custom">
+                            <li><a class="dropdown-item-custom" href="placed-students.html">
+                <div class="icon-wrap"><i class="fas fa-user-graduate"></i></div>
+                <div class="text-wrap"><b>Placed Students</b><span>Success stories from alumni</span></div>
+            </a></li><li><a class="dropdown-item-custom" href="hiring-partners.html">
+                <div class="icon-wrap"><i class="fas fa-handshake"></i></div>
+                <div class="text-wrap"><b>Hiring Partners</b><span>150+ companies hiring</span></div>
+            </a></li><li><a class="dropdown-item-custom" href="placement-statistics.html">
+                <div class="icon-wrap"><i class="fas fa-chart-bar"></i></div>
+                <div class="text-wrap"><b>Placement Stats</b><span>Verified job data</span></div>
+            </a></li><li><a class="dropdown-item-custom" href="success-stories.html">
+                <div class="icon-wrap"><i class="fas fa-quote-left"></i></div>
+                <div class="text-wrap"><b>Success Stories</b><span>Career transformations</span></div>
+            </a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <a href="javascript:void(0)" class="text-dark dropdown-toggle text-decoration-none hover-warning" data-bs-toggle="dropdown">About</a>
+                        <ul class="dropdown-menu dropdown-menu-custom">
+                            <li><a class="dropdown-item-custom" href="about-us.html">
+                <div class="icon-wrap"><i class="fas fa-info-circle"></i></div>
+                <div class="text-wrap"><b>About Us</b><span></span></div>
+            </a></li><li><a class="dropdown-item-custom" href="why-choose-us.html">
+                <div class="icon-wrap"><i class="fas fa-question-circle"></i></div>
+                <div class="text-wrap"><b>Why Choose Us</b><span></span></div>
+            </a></li><li><a class="dropdown-item-custom" href="certifications.html">
+                <div class="icon-wrap"><i class="fas fa-certificate"></i></div>
+                <div class="text-wrap"><b>Certifications</b><span></span></div>
+            </a></li><li><a class="dropdown-item-custom" href="blog.html">
+                <div class="icon-wrap"><i class="fas fa-newspaper"></i></div>
+                <div class="text-wrap"><b>Blog</b><span></span></div>
+            </a></li>
+                        </ul>
+                    </div>
+                    <a href="contact-us.html" class="text-dark text-decoration-none hover-warning">Contact</a>
+                </div>
+
+                <a href="contact-us.html" class="d-none d-lg-block primary-bg text-black fw-bold px-4 py-2 rounded-pill border-0 text-decoration-none">ENROLL NOW</a>
+                <button class="hamburger d-lg-none" id="hamburgerBtn"><span></span><span></span><span></span></button>
+            </div>
+
+            <div class="mobile-overlay" id="mobileOverlay"></div>
+            <div class="mobile-menu d-lg-none" id="mobileMenu">
+                <div class="mobile-menu-logo">
+                    <img src="assets/images/logo/logo.png" alt="Logo">
+                </div>
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="all-courses.html" class="nav-link">Courses</a>
+                <button class="dropdown-btn" onclick="toggleMobileDropdown(this)">Trainings <i class="fas fa-chevron-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="classroom-training.html">Classroom Training</a><a href="online-live-training.html">Online Live Training</a><a href="video-based-learning.html">Video-Based Learning</a><a href="upcoming-batches.html">Upcoming Batches</a><a href="weekend-batches.html">Weekend Batches</a><a href="corporate-training.html">Corporate Training</a>
+                </div>
+                <button class="dropdown-btn" onclick="toggleMobileDropdown(this)">Placements <i class="fas fa-chevron-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="placed-students.html">Placed Students</a><a href="hiring-partners.html">Hiring Partners</a><a href="placement-statistics.html">Placement Stats</a><a href="success-stories.html">Success Stories</a>
+                </div>
+                <button class="dropdown-btn" onclick="toggleMobileDropdown(this)">About <i class="fas fa-chevron-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="about-us.html">About Us</a><a href="why-choose-us.html">Why Choose Us</a><a href="certifications.html">Certifications</a><a href="blog.html">Blog</a>
+                </div>
+                <a href="contact-us.html" class="nav-link">Contact</a>
+                <div class="p-3"><a href="contact-us.html" class="primary-bg text-black fw-bold px-4 py-3 rounded-pill border-0 w-100 text-center d-block text-decoration-none">ENROLL NOW</a></div>
+            </div>
+        </div>
+    </nav>
+    <style>
+        @media (min-width: 1024px) {
+            .hero-section-sub { min-height: 250px; display: flex; align-items: center; }
+        }
+    </style>
+    <section class="hero-section hero-bg hero-section-sub py-5 text-center text-white" style="background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);">
+        <div class="container position-relative z-1" data-aos="fade-up">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h1 class="display-5 fw-bold mb-3">About SKILLFINTECH</h1>
+                    <p class="fs-5 text-white-50 mb-0">Hyderabad's premier IT training institute. We bridge the gap between academic learning and industry requirements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- PAGE CONTENT AREA -->
+    <div class="container py-5">
+        <div class="text-center mb-5" data-aos="fade-up">
+            <p class="text-muted fs-5 mt-4">Connect with thousands of successful SKILLFINTECH alumni spread across the
+                globe and grow together.</p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h5 class="fw-bold mb-3">Connect & Network</h5>
+                    <p class="text-muted">Join our active alumni community with 2500+ members. Share experiences,
+                        exchange ideas, and build professional relationships with fellow graduates worldwide.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h5 class="fw-bold mb-3">Career Opportunities</h5>
+                    <p class="text-muted">Access exclusive job opportunities and referrals shared within the alumni
+                        network. Get recommendations from senior alumni and stay updated with industry opportunities.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h5 class="fw-bold mb-3">Lifelong Learning</h5>
+                    <p class="text-muted">Access to exclusive upskilling workshops, webinars, and advanced courses. Stay
+                        updated with latest technologies and industry best practices throughout your career.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h5 class="fw-bold mb-3">Mentorship Program</h5>
+                    <p class="text-muted">Get guidance from senior alumni and experienced professionals. One-on-one
+                        mentoring sessions to accelerate your career growth and overcome challenges.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h5 class="fw-bold mb-3">Community Support</h5>
+                    <p class="text-muted">Benefit from collective support from the alumni community. Share resources,
+                        discuss challenges, and celebrate successes with people who understand your journey.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h5 class="fw-bold mb-3">Recognition</h5>
+                    <p class="text-muted">Celebrate achievements with annual alumni awards and recognition programs. Get
+                        featured in our success stories and inspire the next generation of learners.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card shadow-sm mt-5 p-4" style="background: linear-gradient(135deg, #eef2ff 0%, #f9fafc 100%);" data-aos="fade-up">
+            <h4 class="fw-bold text-primary mb-3">Join Our Alumni Community Today</h4>
+            <p class="mb-3">Strengthen your professional network and stay connected with your batch mates and mentors.
+                Unlock exclusive benefits and opportunities designed for our alumni.</p>
+            <button class="btn btn-primary" style="background-color: #11337e; border: none; width: fit-content;">Join
+                Now</button>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+
+
+
+
+
+
+
+
+
+
+    
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container">
+            <div class="row g-4 mb-5">
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <img src="../assets/images/logo/logo.png" alt="Logo" style="height: 60px; border-radius: 5px;" class="mb-4">
+                    <h5 class="text-warning mb-3 fw-bold">SKILLFINTECH</h5>
+                    <p class="small text-white-50 lh-lg mb-4">Empowering the next generation of IT professionals with project-driven training and 100% placement support. ISO 9001:2015 Certified Institution.</p>
+                    <div class="footer-social">
+                        <a href="#" class="me-3 text-white-50 hover-warning" style="font-size: 1.2rem;"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="me-3 text-white-50 hover-warning" style="font-size: 1.2rem;"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="me-3 text-white-50 hover-warning" style="font-size: 1.2rem;"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-white-50 hover-warning" style="font-size: 1.2rem;"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <h5 class="mb-4 fw-bold">Popular Courses</h5>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2"><a href="../courses/mern-stack-developer-course.html" class="text-white-50 text-decoration-none hover-warning"><i class="fas fa-chevron-right me-2 small opacity-50"></i>MERN Full Stack</a></li><li class="mb-2"><a href="../courses/java-full-stack-developer-course.html" class="text-white-50 text-decoration-none hover-warning"><i class="fas fa-chevron-right me-2 small opacity-50"></i>Java full stack</a></li><li class="mb-2"><a href="../courses/data-structures-and-algorithms.html" class="text-white-50 text-decoration-none hover-warning"><i class="fas fa-chevron-right me-2 small opacity-50"></i>Data structure and algorithms</a></li><li class="mb-2"><a href="../courses/react-js-developer-course.html" class="text-white-50 text-decoration-none hover-warning"><i class="fas fa-chevron-right me-2 small opacity-50"></i>React JS</a></li><li class="mb-2"><a href="../courses/node-js-developer-course.html" class="text-white-50 text-decoration-none hover-warning"><i class="fas fa-chevron-right me-2 small opacity-50"></i>Node JS</a></li><li class="mb-2"><a href="../courses/ui-frontend-development.html" class="text-white-50 text-decoration-none hover-warning"><i class="fas fa-chevron-right me-2 small opacity-50"></i>UI/ Frontend development</a></li><li class="mb-2"><a href="../courses/web-development-course.html" class="text-white-50 text-decoration-none hover-warning"><i class="fas fa-chevron-right me-2 small opacity-50"></i>Web development</a></li><li class="mb-2"><a href="../courses/devsecops-course.html" class="text-white-50 text-decoration-none hover-warning"><i class="fas fa-chevron-right me-2 small opacity-50"></i>DevSecOps</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <h5 class="mb-4 fw-bold">Important Links</h5>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2"><a href="../training/classroom-training.html" class="text-white-50 text-decoration-none hover-warning"><i class="fas fa-chevron-right me-2 small opacity-50"></i>Classroom Training</a></li><li class="mb-2"><a href="../training/online-live-training.html" class="text-white-50 text-decoration-none hover-warning"><i class="fas fa-chevron-right me-2 small opacity-50"></i>Online Live Training</a></li><li class="mb-2"><a href="../training/video-based-learning.html" class="text-white-50 text-decoration-none hover-warning"><i class="fas fa-chevron-right me-2 small opacity-50"></i>Video-Based Learning</a></li>
+                        <li class="mb-2"><a href="../placements/placed-students.html" class="text-white-50 text-decoration-none hover-warning"><i class="fas fa-chevron-right me-2 small opacity-50"></i>Placed Students</a></li><li class="mb-2"><a href="../placements/hiring-partners.html" class="text-white-50 text-decoration-none hover-warning"><i class="fas fa-chevron-right me-2 small opacity-50"></i>Hiring Partners</a></li><li class="mb-2"><a href="../placements/placement-statistics.html" class="text-white-50 text-decoration-none hover-warning"><i class="fas fa-chevron-right me-2 small opacity-50"></i>Placement Stats</a></li>
+                        <li class="mb-2"><a href="about-us.html" class="text-white-50 text-decoration-none hover-warning"><i class="fas fa-chevron-right me-2 small opacity-50"></i>About Us</a></li><li class="mb-2"><a href="why-choose-us.html" class="text-white-50 text-decoration-none hover-warning"><i class="fas fa-chevron-right me-2 small opacity-50"></i>Why Choose Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="mb-4 fw-bold">Contact Information</h5>
+                    <ul class="list-unstyled small text-white-50">
+                        <li class="mb-3 d-flex align-items-start gap-3">
+                            <i class="fas fa-map-marker-alt mt-1 text-warning fs-5"></i>
+                            <span>PHT Market Shopping Mall, Opposite Uppal Busstand, Office No: 432, 4th Floor, Uppal, Malkajgiri 500039</span>
+                        </li>
+                        <li class="mb-3 d-flex align-items-center gap-3">
+                            <i class="fas fa-phone-alt text-warning fs-5"></i>
+                            <a href="tel:+919619674417" class="text-white-50 text-decoration-none">+91 96196 74417</a>
+                        </li>
+                        <li class="mb-3 d-flex align-items-center gap-3">
+                            <i class="fas fa-envelope text-warning fs-5"></i>
+                            <a href="mailto:deeptechfintech@gmail.com" class="text-white-50 text-decoration-none">deeptechfintech@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="opacity-25 mb-4">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <p class="small mb-0 text-white-50">&copy; 2026 <span class="text-warning">SkillFintech</span>. Crafted for Digital Excellence.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="small text-white-50 text-decoration-none me-4 hover-white">Privacy Policy</a>
+                    <a href="#" class="small text-white-50 text-decoration-none hover-white">Terms &amp; Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../npm/bootstrap%405.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="assets/js/custome.js"></script>
+    <script>AOS.init({ duration: 800 });</script>
 </body>
+
 </html>

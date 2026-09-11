@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
-    <title>SKILLNXT | About Us</title>
-    <meta name="description" content="SKILLNXT | About Us - Learn from industry experts at SKILLNXT. 100% placement support.">
+    <title>SKILLNXT | Why Choose Us</title>
+    <meta name="description" content="SKILLNXT | Why Choose Us - Learn from industry experts at SKILLNXT. 100% placement support.">
     <!-- Bootstrap CSS -->
     <link href="../npm/bootstrap%405.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="../3.4.17"></script>
@@ -26,99 +26,126 @@
             color: #11337e;
         }
 
-        .mission-vision-box {
-            background: linear-gradient(135deg, #11337e 0%, #1e5fb8 100%);
-            color: white;
-            padding: 2.5rem;
-            border-radius: 1rem;
-            margin-bottom: 2rem;
-            box-shadow: 0 8px 24px rgba(17, 51, 126, 0.2);
-            transition: all 0.3s ease;
-        }
-
-        .mission-vision-box:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 12px 32px rgba(17, 51, 126, 0.3);
-        }
-
-        .mission-vision-box h3 {
-            color: #ffd700;
-            font-size: 1.8rem;
-            margin-bottom: 1rem;
-        }
-
-        .mission-vision-box p {
-            font-size: 1.05rem;
-            line-height: 1.8;
-            opacity: 0.95;
-        }
-
-        .core-values-container {
-            margin: 3rem 0;
-        }
-
-        .value-card {
+        .feature-card {
             background: white;
-            border-left: 5px solid #11337e;
-            padding: 2rem;
-            border-radius: 0.5rem;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-            margin-bottom: 1.5rem;
+            border-radius: 20px;
+            padding: 32px 24px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            text-align: center;
             transition: all 0.3s ease;
+            border: 2px solid transparent;
         }
 
-        .value-card:hover {
-            box-shadow: 0 6px 20px rgba(17, 51, 126, 0.15);
-            transform: translateX(8px);
-        }
-
-        .value-card h4 {
-            color: #11337e;
-            font-weight: 700;
-            margin-bottom: 0.8rem;
-            display: flex;
-            align-items: center;
-            gap: 0.8rem;
-        }
-
-        .value-card i {
-            font-size: 1.3rem;
-            color: #ffd700;
-        }
-
-        .value-card p {
-            color: #666;
-            margin: 0;
-            line-height: 1.6;
-        }
-
-        .why-choose-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1.5rem;
-            margin-top: 1.5rem;
-        }
-
-        .choose-item {
-            background: #f8f9ff;
-            padding: 1.5rem;
-            border-radius: 0.8rem;
-            border: 1px solid #e8ebf5;
-            transition: all 0.3s ease;
-        }
-
-        .choose-item:hover {
-            background: white;
+        .feature-card:hover {
             border-color: #11337e;
-            transform: translateY(-4px);
-            box-shadow: 0 4px 12px rgba(17, 51, 126, 0.1);
+            box-shadow: 0 15px 35px rgba(17, 51, 126, 0.15);
+            transform: translateY(-8px);
         }
 
-        .choose-item i {
+        .feature-icon {
+            font-size: 3rem;
             color: #11337e;
-            font-size: 1.5rem;
-            margin-right: 0.8rem;
+            margin-bottom: 16px;
         }
+        .why-skillnxt-section {
+    padding: 80px 0;
+    background: #f8f9fa;
+}
+
+.why-skillnxt-heading {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 50px;
+}
+
+.why-skillnxt-heading h2 {
+    font-size: 38px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+.why-skillnxt-heading h2 span {
+    color: #ff7a00;
+}
+
+.why-skillnxt-heading p {
+    font-size: 17px;
+    color: #666;
+    line-height: 1.7;
+}
+
+.why-skillnxt-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.why-skillnxt-card {
+    background: #ffffff;
+    padding: 30px 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+    transition: 0.3s ease;
+}
+
+.why-skillnxt-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.why-icon {
+    width: 65px;
+    height: 65px;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff3e8;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.why-skillnxt-card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 12px;
+}
+
+.why-skillnxt-card p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #666;
+    margin: 0;
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+    .why-skillnxt-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .why-skillnxt-section {
+        padding: 60px 20px;
+    }
+
+    .why-skillnxt-heading h2 {
+        font-size: 30px;
+    }
+
+    .why-skillnxt-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .why-skillnxt-card {
+        padding: 25px 20px;
+    }
+}
     </style>
 </head>
 
@@ -268,313 +295,125 @@
         </div>
     </section>
     
-    <section class="about-skillnxt-section">
+    
+    
+    <section class="why-skillnxt-section">
     <div class="container">
 
-        <div class="about-skillnxt-content">
+        <!-- Heading -->
+        <div class="why-skillnxt-heading">
+            <h2>🤝 Why Choose <span>SkillNxt Academy?</span></h2>
+            <p>Empowering you with the skills, confidence, and support to build a successful career.</p>
+        </div>
 
-            <h2>About <span>SkillNxt Academy</span></h2>
+        <!-- Cards -->
+        <div class="why-skillnxt-grid">
 
-            <h3>Learn. Upskill. Transform Your Career.</h3>
+            <div class="why-skillnxt-card">
+                <div class="why-icon">📚</div>
+                <h3>Industry-Relevant Curriculum</h3>
+                <p>
+                    Learn technologies, tools, and practices aligned with real-world industry requirements.
+                </p>
+            </div>
 
-            <p>
-                SkillNxt Academy is an industry-focused IT training and career development academy committed to helping freshers, working professionals, and career switchers build the technical expertise, practical skills, and confidence needed to succeed in today’s competitive technology industry.
-            </p>
+            <div class="why-skillnxt-card">
+                <div class="why-icon">💻</div>
+                <h3>Practical, Hands-on Learning</h3>
+                <p>
+                    Move beyond theory with practical exercises, assignments, projects, and real-world scenarios.
+                </p>
+            </div>
 
-            <p>
-                We believe that true learning goes beyond textbooks and theoretical concepts. It is about understanding how technology works in real-world environments, gaining hands-on experience, solving practical problems, and developing the confidence to apply knowledge effectively in the workplace.
-            </p>
+            <div class="why-skillnxt-card">
+                <div class="why-icon">👨‍🏫</div>
+                <h3>Experienced Trainers</h3>
+                <p>
+                    Learn from trainers and industry professionals who bring practical knowledge and real-world experience into the classroom.
+                </p>
+            </div>
 
-            <p>
-                Our programs combine industry-relevant curriculum, hands-on training, real-world projects, expert mentorship, interview preparation, and career guidance to create a complete learning and career development experience.
-            </p>
+            <div class="why-skillnxt-card">
+                <div class="why-icon">🎯</div>
+                <h3>Career-Focused Programs</h3>
+                <p>
+                    Our courses are designed around practical job roles and the skills employers look for.
+                </p>
+            </div>
+
+            <div class="why-skillnxt-card">
+                <div class="why-icon">📝</div>
+                <h3>Interview &amp; Career Preparation</h3>
+                <p>
+                    Build confidence through technical interview preparation, resume guidance, professional communication, and career coaching.
+                </p>
+            </div>
+
+            <div class="why-skillnxt-card">
+                <div class="why-icon">⏰</div>
+                <h3>Flexible Learning</h3>
+                <p>
+                    Training programs designed to accommodate the needs of both freshers and working professionals.
+                </p>
+            </div>
+
+            <div class="why-skillnxt-card">
+                <div class="why-icon">🤝</div>
+                <h3>Continuous Mentorship &amp; Support</h3>
+                <p>
+                    Receive guidance throughout your learning journey, from understanding concepts to preparing for your next career opportunity.
+                </p>
+            </div>
 
         </div>
 
     </div>
 </section>
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- PAGE CONTENT AREA -->
-    <div class="container py-5" style="min-height: 50vh;">
-
-        <div class="row mt-5">
-            <div class="col-lg-10 mx-auto">
-
-                <!-- OUR STORY SECTION -->
-                <section class="story-section">
-
-                    <div class="container">
-
-                        <!-- OUR STORY -->
-                        <div class="story-card">
-
-                            <div class="story-icon">
-                                <i class="fas fa-bullhorn"></i>
-                            </div>
-
-                            <h3>Our Story</h3>
-
-                            <p>
-                                SKILLNXT was established with the recognition that the future of
-                                professional development requires institutional discipline and
-                                industry alignment.
-                            </p>
-
-                            <p>
-                                Observing the structural gap between educational output and
-                                industry demand, our leadership identified the need for a
-                                platform that operates with clarity, structure, and
-                                accountability.
-                            </p>
-
-                            <p>
-                                SKILLNXT represents that platform.
-                            </p>
-
-                        </div>
-
-
-                        <!-- VISION AND MISSION -->
-                        <div class="row g-4 mt-1">
-
-                            <!-- OUR VISION -->
-                            <div class="col-md-6">
-
-                                <div class="vision-mission-card">
-
-                                    <div class="vision-icon">
-                                        <i class="fas fa-lightbulb"></i>
-                                    </div>
-
-                                    <h3>Our Vision</h3>
-
-                                    <p>
-                                        To emerge as a nationally recognized professional
-                                        learning institution known for excellence, structured
-                                        discipline, and measurable impact in skill development.
-                                    </p>
-
-                                </div>
-
-                            </div>
-
-
-                            <!-- OUR MISSION -->
-                            <div class="col-md-6">
-
-                                <div class="vision-mission-card">
-
-                                    <div class="mission-icon">
-                                        <i class="fas fa-bullseye"></i>
-                                    </div>
-
-                                    <h3>Our Mission</h3>
-
-                                    <p>
-                                        To equip individuals across India with industry-aligned
-                                        training and professional competencies that build
-                                        competence, confidence, and career sustainability.
-                                    </p>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </section>
-
-                <!-- WHY CHOOSE SKILLNXT SECTION -->
-            <section class="why-skillnxt-section">
-                <div class="container">
-
-                    <!-- HEADING -->
-                    <div class="why-skillnxt-heading text-center">
-                        <h2>Why Choose <span>SKILLNXT?</span></h2>
-                        <p>Learn. Build Skills. Get Placed.</p>
-                    </div>
-
-                    <div class="row g-3">
-
-                        <!-- CARD 1 -->
-                        <div class="col-lg-4 col-md-6" data-aos="fade-up">
-                            <div class="skillnxt-feature-card">
-
-                                <div class="skillnxt-feature-icon">
-                                    <i class="fas fa-laptop-code"></i>
-                                </div>
-
-                                <div>
-                                    <h4>Industry-Ready<br>Curriculum</h4>
-
-                                    <p>
-                                        Learn the latest technologies and skills designed
-                                        to meet real industry requirements.
-                                    </p>
-                                </div>
-
-                            </div>
-                        </div>
-
-
-                        <!-- CARD 2 -->
-                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                            <div class="skillnxt-feature-card">
-
-                                <div class="skillnxt-feature-icon">
-                                    <i class="fas fa-chalkboard-teacher"></i>
-                                </div>
-
-                                <div>
-                                    <h4>Expert-Led<br>Training</h4>
-
-                                    <p>
-                                        Learn from experienced trainers with practical
-                                        knowledge and industry expertise.
-                                    </p>
-                                </div>
-
-                            </div>
-                        </div>
-
-
-                        <!-- CARD 3 -->
-                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                            <div class="skillnxt-feature-card">
-
-                                <div class="skillnxt-feature-icon">
-                                    <i class="fas fa-project-diagram"></i>
-                                </div>
-
-                                <div>
-                                    <h4>Real-Time<br>Projects</h4>
-
-                                    <p>
-                                        Gain hands-on experience by working on practical
-                                        projects and real-world scenarios.
-                                    </p>
-                                </div>
-
-                            </div>
-                        </div>
-
-
-                        <!-- CARD 4 -->
-                        <div class="col-lg-4 col-md-6" data-aos="fade-up">
-                            <div class="skillnxt-feature-card">
-
-                                <div class="skillnxt-feature-icon">
-                                    <i class="fas fa-users"></i>
-                                </div>
-
-                                <div>
-                                    <h4>Flexible Training<br>Options</h4>
-
-                                    <p>
-                                        Choose classroom, online, weekend, or corporate
-                                        training based on your needs.
-                                    </p>
-                                </div>
-
-                            </div>
-                        </div>
-
-
-                        <!-- CARD 5 -->
-                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                            <div class="skillnxt-feature-card">
-
-                                <div class="skillnxt-feature-icon">
-                                    <i class="fas fa-user-graduate"></i>
-                                </div>
-
-                                <div>
-                                    <h4>Placement<br>Support</h4>
-
-                                    <p>
-                                        Get complete career guidance, resume preparation,
-                                        mock interviews, and placement assistance.
-                                    </p>
-                                </div>
-
-                            </div>
-                        </div>
-
-
-                        <!-- CARD 6 -->
-                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                            <div class="skillnxt-feature-card">
-
-                                <div class="skillnxt-feature-icon">
-                                    <i class="fas fa-chart-line"></i>
-                                </div>
-
-                                <div>
-                                    <h4>Career Growth<br>Focused</h4>
-
-                                    <p>
-                                        Build in-demand skills and prepare yourself for
-                                        long-term success in the IT industry.
-                                    </p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-            </section>
-            </div>
-        </div>
-    </div>
-
-    <!-- FOOTER -->    
+    <!-- FOOTER -->
     <footer class="skillnxt-footer">
 
         <div class="skillnxt-footer-overlay"></div>
@@ -674,7 +513,7 @@
 
                     <div class="footer-contact-item">
                         <i class="fas fa-phone-alt"></i>
-                        <a href="tel:">+91 7702997775</a>
+                        <a href="tel:">+91 XXXXX XXXXX</a>
                     </div>
 
                     <div class="footer-contact-item">
